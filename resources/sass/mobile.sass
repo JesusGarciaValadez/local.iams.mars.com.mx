@@ -1,15 +1,27 @@
+.mobile
+  display: block
+.desktop
+  display: none
+
 body
   display: block
   width: 100%
 
 header
-  background-color: #009943
-  height: 30px
+  background-color: $green-header
+  display: flex
+  flex-flow: row nowrap
+  position: relative
   width: 100%
   img
-    margin: 9.2px
+    align-self: center
+    display: inline-block
+    margin: 15px 0 15px 15px
   nav
-    float: right
+    position: absolute
+    transform: translate( 0, -50% )
+    top: 50%
+    right: 0
 
 nav
   ul
@@ -21,123 +33,145 @@ nav
     li
       margin: 10px 15px
       a
+        text-decoration: none
         i
           &:before
             color: #fff
 
+section.banner
+  background: url( "../img/mobile/cover.png" ) no-repeat scroll 0 0 transparent
+  background-size: 100%
+  height: 150.9375vw
+  width: 100%
+  img
+    left: 50%
+    margin: 0
+    position: relative
+    transform: translate( -50%, 0 )
+    &.iams
+      top: 12.5vw
+    &.superama
+      top: 18.75vw
+
 section.announce
-  article
-    h4
-      color: #ffffff
-      display: block
-      font: normal 17.5px/1.2em 'Gotham'
-      font-weight: 900
-      height: 37px
-      letter-spacing: 0.2px
-      margin: 20.5px 6px 0 21.5px
-      text-shadow: 1.5px 1.5px 0 #c58d2c
+  background: url( "../img/desktop/llego-a-mexico.png" ) no-repeat scroll 0 0 transparent
+  background-size: 100%
+  height: 34.375vw
+  position: relative
+  width: 100%
+  h4
+    color: $white
+    display: block
+    font: normal 900 8.75vw/1.2em 'Gotham'
+    letter-spacing: 0.2px
+    margin: 0
+    padding: 2.1875vw 0 0 12.5vw
+    text-transform: uppercase
+    text-shadow: 3px 3px 0 #c58d2c
     p
 
     img
 
-section.banner
-  height: 241.5px
-  img
-    margin: 0
-  p
-  img
-
 main
+  .announce
+    top: -9.375vw
   .results
     h1
-      color: #009943
+      color: $green-header
       display: block
-      height: 9px
-      font: bold 10px/1.2em Gotham
+      font: bold 20px/1.2em 'Gotham'
       letter-spacing: 0.3px
+      margin: 0 auto
       text-align: center
+      text-transform: uppercase
       strong
-        color: #404041
-        height: 13.5px
-        font: normal 15px/1.2em Gotham
-        font-weight: 900
+        color: $grey
+        font: normal 900 30px/1.2em 'Gotham'
         letter-spacing: 0.5px
     h2
-      color: #009943
+      color: $green-header
       display: block
-      height: 5.5px
-      font: normal 6.2px/1.2em Gotham
-      font-weight: 900
+      font: normal 900 15px/1.2em 'Gotham'
       letter-spacing: 0.2px
-      margin: 0 0 34px
+      margin: 0 auto
       text-align: center
+      text-transform: uppercase
+    div
+      box-sizing: border-box
+      padding: 0 0 31.25vw
     article
+      box-sizing: border-box
       display: block
-      margin: 30.5px auto
+      margin: 10.9375vw auto
       figure
         margin: 0 auto
         img
           display: block
           margin: 0 auto
-        hr
-          border-top: 5px dotted #009300
+        p
+          color: $green-header
           display: block
-          height: 0
-          margin: 16px auto 0
-          width: 50px
+          margin: 5vw auto 0
+          width: 95px
         figcaption
-          color: #404041
+          color: $grey
           display: block
-          font: normal 20px/1.2em 'LibelSuitRg'
+          font: normal 8.75vw/1.2em 'LibelSuitRg'
           text-align: center
+          text-transform: uppercase
           span
-            color: #404041
+            color: $grey
             display: block
-            font: normal 35px/1.2em 'LibelSuitRg'
-            height: 50.5px
+            font: normal 17.1875vw/1.2em 'LibelSuitRg'
       p
-        color: #404041
-        font: normal 24px/1.4em 'GothamBook'
+        color: $grey
+        font: normal 6.25vw/1.4em 'GothamBook'
         letter-spacing: 0.2px
-        margin: 0 9px
+        margin: 5vw 2.8125vw 0
         text-align: center
+
+.mobile.superama
+  margin: 0 0 9.375vw
+  figure
+    margin: 12.5vw
+    img
+      margin: 0 auto
 
 figure.bags
   display: flex
   flex-flow: column nowrap
+  height: calc( 156px )
+  margin: 0 auto
+  padding: 0
+  position: relative
+  top: -35px
   img
     align-center: center
-    display: block
     margin: 0 auto
 
 footer
-  background-color: #009a4d
-  height: 278.5px
-  padding: 106.4px 0 0
+  background-color: $green-header
+  padding: 33.125vw 0 15.625vw
   width: 100%
   h4
     color: #fff
     height: 10.5px
-    font: normal 7.5px/1.4em 'Gotham'
-    font-weight: 900
+    font: normal 900 18px/1.4em 'Gotham'
     text-align: center
     width: 100%
   nav
-    margin: 0 auto
-    width: 166px
+    margin: 0 auto 14.6875vw
+    width: 71.875vw
     ul
       li
+        margin: 3.125vw 7.8125vw
         a
           i
   p
     color: #fff
-    height: 49px
-    font: normal 13px/2em 'Gotham'
-    font-weight: 900
+    font: normal 900 3.4375vw/2em 'Gotham'
     letter-spacing: 0.2px
-    margin: 47px 5px 0
+    margin: 0 auto
+    padding: 0 1.5625vw
     text-align: center
     width: auto
-    &:last-child
-      margin-top: 0
-      margin-bottom: 14.5px
