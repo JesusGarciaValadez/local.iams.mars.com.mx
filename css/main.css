@@ -17,7 +17,7 @@ body {
   margin: 0; }
 
 /* HTML5 display definitions
- * ========================================================================== */
+   @mixin ========================================================================= */
 /**
  * Correct `block` display not defined for any HTML5 element in IE 8/9.
  * Correct `block` display not defined for `details` or `summary` in IE 10/11
@@ -67,7 +67,7 @@ template {
   display: none; }
 
 /* Links
- * ========================================================================== */
+   @mixin ========================================================================= */
 /**
  * Remove the gray background color from active links in IE 10.
  */
@@ -83,7 +83,7 @@ a:hover {
   outline: 0; }
 
 /* Text-level semantics
- * ========================================================================== */
+   @mixin ========================================================================= */
 /**
  * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
  */
@@ -141,7 +141,7 @@ sub {
   bottom: -0.25em; }
 
 /* Embedded content
- * ========================================================================== */
+   @mixin ========================================================================= */
 /**
  * Remove border when inside `a` element in IE 8/9/10.
  */
@@ -155,7 +155,7 @@ svg:not(:root) {
   overflow: hidden; }
 
 /* Grouping content
- * ========================================================================== */
+   @mixin ========================================================================= */
 /**
  * Address margin not present in IE 8/9 and Safari.
  */
@@ -186,7 +186,7 @@ samp {
   font-size: 1em; }
 
 /* Forms
- * ========================================================================== */
+   @mixin ========================================================================= */
 /**
  * Known limitation: by default, Chrome and Safari on OS X allow very limited
  * styling of `select`, unless a `border` property is set.
@@ -300,7 +300,7 @@ input[type="search"]::-webkit-search-decoration {
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
-  padding: 0.35em 0.63em 0.75em; }
+  padding: 0.35em 0.625em 0.75em; }
 
 /**
  * 1. Correct `color` not being inherited in IE 8/9/10/11.
@@ -324,7 +324,7 @@ optgroup {
   font-weight: bold; }
 
 /* Tables
- * ========================================================================== */
+   @mixin ========================================================================= */
 /**
  * Remove most spacing between table cells.
  */
@@ -348,6 +348,7 @@ th {
   src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.6.3") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff2?v=4.6.3") format("woff2"), url("../fonts/fontawesome-webfont.woff?v=4.6.3") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=4.6.3") format("truetype"), url("../fonts/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal; }
+
 .fa {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
@@ -407,6 +408,7 @@ th {
 
 .fa.fa-pull-left {
   margin-right: .3em; }
+
 .fa.fa-pull-right {
   margin-left: .3em; }
 
@@ -419,6 +421,7 @@ th {
 
 .fa.pull-left {
   margin-right: .3em; }
+
 .fa.pull-right {
   margin-left: .3em; }
 
@@ -437,6 +440,7 @@ th {
   100% {
     -webkit-transform: rotate(359deg);
     transform: rotate(359deg); } }
+
 @keyframes fa-spin {
   0% {
     -webkit-transform: rotate(0deg);
@@ -444,34 +448,30 @@ th {
   100% {
     -webkit-transform: rotate(359deg);
     transform: rotate(359deg); } }
+
 .fa-rotate-90 {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
   -webkit-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
   transform: rotate(90deg); }
 
 .fa-rotate-180 {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
   -webkit-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
   transform: rotate(180deg); }
 
 .fa-rotate-270 {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
   -webkit-transform: rotate(270deg);
-  -ms-transform: rotate(270deg);
   transform: rotate(270deg); }
 
 .fa-flip-horizontal {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
   -webkit-transform: scale(-1, 1);
-  -ms-transform: scale(-1, 1);
   transform: scale(-1, 1); }
 
 .fa-flip-vertical {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
   -webkit-transform: scale(1, -1);
-  -ms-transform: scale(1, -1);
   transform: scale(1, -1); }
 
 :root .fa-rotate-90,
@@ -479,7 +479,8 @@ th {
 :root .fa-rotate-270,
 :root .fa-flip-horizontal,
 :root .fa-flip-vertical {
-  filter: none; }
+  -webkit-filter: none;
+          filter: none; }
 
 .fa-stack {
   position: relative;
@@ -2522,20 +2523,64 @@ th {
   overflow: visible;
   clip: auto; }
 
+@font-face {
+  font-family: "GothamBlack";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Gotham-Black.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "GothamBold";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/Gotham-Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "GothamBook";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/Gotham-Book.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "GothamLight";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Gotham-Light.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "GothamRoundedBook";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/GothamRounded-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamRounded-Book.woff2") format("woff2"), url("../fonts/GothamRounded-Book.woff") format("woff"), url("../fonts/GothamRounded-Book.ttf") format("truetype"), url("../fonts/GothamRounded-Book.svg#GothamRoundedBook") format("svg"); }
+
+@font-face {
+  font-family: "GothamRoundedMedium";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/GothamRounded-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamRounded-Medium.woff2") format("woff2"), url("../fonts/GothamRounded-Medium.woff") format("woff"), url("../fonts/GothamRounded-Medium.ttf") format("truetype"), url("../fonts/GothamRounded-Medium.svg#GothamRoundedMedium") format("svg"); }
+
+@font-face {
+  font-family: "LibelSuitRg";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/libel-suit-rg.ttf") format("truetype"); }
+
 /*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
-/* What follows is the result of much research on cross-browser styling.
+/*
+ * What follows is the result of much research on cross-browser styling.
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
  * Kroc Camen, and the H5BP dev community and team.
  */
 /* ==========================================================================
- * Base styles: opinionated defaults
- * ========================================================================== */
+   Base styles: opinionated defaults
+   @mixin ========================================================================= */
 html {
   color: #222;
   font-size: 1em;
   line-height: 1.4; }
 
-/* Remove text-shadow in selection highlight:
+/*
+ * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
  *
  * These selection rule sets have to be separate.
@@ -2549,7 +2594,8 @@ html {
   background: #b3d4fc;
   text-shadow: none; }
 
-/* A better looking default horizontal rule
+/*
+ * A better looking default horizontal rule
  */
 hr {
   display: block;
@@ -2559,7 +2605,8 @@ hr {
   margin: 1em 0;
   padding: 0; }
 
-/* Remove the gap between audio, canvas, iframes,
+/*
+ * Remove the gap between audio, canvas, iframes,
  * images, videos and the bottom of their containers:
  * https://github.com/h5bp/html5-boilerplate/issues/440
  */
@@ -2571,21 +2618,23 @@ svg,
 video {
   vertical-align: middle; }
 
-/* Remove default fieldset styles.
+/*
+ * Remove default fieldset styles.
  */
 fieldset {
   border: 0;
   margin: 0;
   padding: 0; }
 
-/* Allow only vertical resizing of textareas.
+/*
+ * Allow only vertical resizing of textareas.
  */
 textarea {
   resize: vertical; }
 
 /* ==========================================================================
- * Browser Upgrade Prompt
- * ========================================================================== */
+   Browser Upgrade Prompt
+   @mixin ========================================================================= */
 .browserupgrade {
   margin: 0.2em 0;
   background: #ccc;
@@ -2593,145 +2642,204 @@ textarea {
   padding: 0.2em 0; }
 
 /* ==========================================================================
- *   Author's custom styles
- *   ========================================================================== */
+   Author's custom styles
+   @mixin ========================================================================= */
+.mobile {
+  display: block; }
+
+.desktop {
+  display: none; }
+
 body {
   display: block;
   width: 100%; }
 
 header {
   background-color: #009943;
-  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row nowrap;
+      flex-flow: row nowrap;
+  position: relative;
   width: 100%; }
   header img {
-    margin: 9.2px; }
+    -ms-flex-item-align: center;
+        align-self: center;
+    display: inline-block;
+    margin: 15px 0 15px 15px; }
   header nav {
-    float: right; }
+    position: absolute;
+    -webkit-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+    top: 50%;
+    right: 0; }
 
 nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-flow: row nowrap;
+  -ms-flex-flow: row nowrap;
+      flex-flow: row nowrap;
   list-style: none inside;
   margin: 0;
   padding: 0; }
   nav ul li {
     margin: 10px 15px; }
-    nav ul li a i:before {
-      color: #fff; }
-
-section.announce article h4 {
-  color: #ffffff;
-  display: block;
-  font: normal 17.5px/1.2em "Gotham";
-  font-weight: 900;
-  height: 37px;
-  letter-spacing: 0.2px;
-  margin: 20.5px 6px 0 21.5px;
-  text-shadow: 1.5px 1.5px 0 #c58d2c; }
+    nav ul li a {
+      text-decoration: none; }
+      nav ul li a i:before {
+        color: #fff; }
 
 section.banner {
-  height: 241.5px; }
+  background: url("../img/mobile/cover.png") no-repeat scroll 0 0 transparent;
+  background-size: 100%;
+  height: 150.9375vw;
+  width: 100%; }
   section.banner img {
-    margin: 0; }
+    left: 50%;
+    margin: 0;
+    position: relative;
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0); }
+    section.banner img.iams {
+      top: 12.5vw; }
+    section.banner img.superama {
+      top: 18.75vw; }
+
+section.announce {
+  background: url("../img/desktop/llego-a-mexico.png") no-repeat scroll 0 0 transparent;
+  background-size: 100%;
+  height: 34.375vw;
+  position: relative;
+  width: 100%; }
+  section.announce h4 {
+    color: #fff;
+    display: block;
+    font: normal 900 8.75vw/1.2em 'Gotham';
+    letter-spacing: 0.2px;
+    margin: 0;
+    padding: 2.1875vw 0 0 12.5vw;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 0 #c58d2c; }
+
+main .announce {
+  top: -9.375vw; }
 
 main .results h1 {
   color: #009943;
   display: block;
-  height: 9px;
-  font: bold 10px/1.2em Gotham;
+  font: bold 20px/1.2em 'Gotham';
   letter-spacing: 0.3px;
-  text-align: center; }
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase; }
   main .results h1 strong {
     color: #404041;
-    height: 13.5px;
-    font: normal 15px/1.2em Gotham;
-    font-weight: 900;
+    font: normal 900 30px/1.2em 'Gotham';
     letter-spacing: 0.5px; }
+
 main .results h2 {
   color: #009943;
   display: block;
-  height: 5.5px;
-  font: normal 6.2px/1.2em Gotham;
-  font-weight: 900;
+  font: normal 900 15px/1.2em 'Gotham';
   letter-spacing: 0.2px;
-  margin: 0 0 34px;
-  text-align: center; }
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase; }
+
+main .results div {
+  box-sizing: border-box;
+  padding: 0 0 31.25vw; }
+
 main .results article {
+  box-sizing: border-box;
   display: block;
-  margin: 30.5px auto; }
+  margin: 10.9375vw auto; }
   main .results article figure {
     margin: 0 auto; }
     main .results article figure img {
       display: block;
       margin: 0 auto; }
-    main .results article figure hr {
-      border-top: 5px dotted #009300;
+    main .results article figure p {
+      color: #009943;
       display: block;
-      height: 0;
-      margin: 16px auto 0;
-      width: 50px; }
+      margin: 5vw auto 0;
+      width: 95px; }
     main .results article figure figcaption {
       color: #404041;
       display: block;
-      font: normal 20px/1.2em "LibelSuitRg";
-      text-align: center; }
+      font: normal 8.75vw/1.2em 'LibelSuitRg';
+      text-align: center;
+      text-transform: uppercase; }
       main .results article figure figcaption span {
         color: #404041;
         display: block;
-        font: normal 35px/1.2em "LibelSuitRg";
-        height: 50.5px; }
+        font: normal 17.1875vw/1.2em 'LibelSuitRg'; }
   main .results article p {
     color: #404041;
-    font: normal 24px/1.4em "GothamBook";
+    font: normal 6.25vw/1.4em 'GothamBook';
     letter-spacing: 0.2px;
-    margin: 0 9px;
+    margin: 5vw 2.8125vw 0;
     text-align: center; }
 
+.mobile.superama {
+  margin: 0 0 9.375vw; }
+  .mobile.superama figure {
+    margin: 12.5vw; }
+    .mobile.superama figure img {
+      margin: 0 auto; }
+
 figure.bags {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-flow: column nowrap; }
+  -ms-flex-flow: column nowrap;
+      flex-flow: column nowrap;
+  height: calc( 156px);
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  top: -35px; }
   figure.bags img {
     align-center: center;
-    display: block;
     margin: 0 auto; }
 
 footer {
-  background-color: #009a4d;
-  height: 278.5px;
-  padding: 106.4px 0 0;
+  background-color: #009943;
+  padding: 33.125vw 0 15.625vw;
   width: 100%; }
   footer h4 {
     color: #fff;
     height: 10.5px;
-    font: normal 7.5px/1.4em "Gotham";
-    font-weight: 900;
+    font: normal 900 18px/1.4em 'Gotham';
     text-align: center;
     width: 100%; }
   footer nav {
-    margin: 0 auto;
-    width: 166px; }
+    margin: 0 auto 14.6875vw;
+    width: 71.875vw; }
+    footer nav ul li {
+      margin: 3.125vw 7.8125vw; }
   footer p {
     color: #fff;
-    height: 49px;
-    font: normal 13px/2em "Gotham";
-    font-weight: 900;
+    font: normal 900 3.4375vw/2em 'Gotham';
     letter-spacing: 0.2px;
-    margin: 47px 5px 0;
+    margin: 0 auto;
+    padding: 0 1.5625vw;
     text-align: center;
     width: auto; }
-    footer p:last-child {
-      margin-top: 0;
-      margin-bottom: 14.5px; }
 
 /* ==========================================================================
- *   Helper classes
- *   ========================================================================== */
-/* Hide visually and from screen readers
+   Helper classes
+   @mixin ========================================================================= */
+/*
+ * Hide visually and from screen readers
  */
 .hidden {
   display: none !important; }
 
-/* Hide only visually, but have it available for screen readers:
+/*
+ * Hide only visually, but have it available for screen readers:
  * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
  */
 .visuallyhidden {
@@ -2744,7 +2852,8 @@ footer {
   position: absolute;
   width: 1px; }
 
-/* Extends the .visuallyhidden class to allow the element
+/*
+ * Extends the .visuallyhidden class to allow the element
  * to be focusable when navigated to via the keyboard:
  * https://www.drupal.org/node/897638
  */
@@ -2757,12 +2866,14 @@ footer {
   position: static;
   width: auto; }
 
-/* Hide visually and from screen readers, but maintain layout
+/*
+ * Hide visually and from screen readers, but maintain layout
  */
 .invisible {
   visibility: hidden; }
 
-/* Clearfix: contain floats
+/*
+ * Clearfix: contain floats
  *
  * For modern browsers
  * 1. The space content is one way to avoid an Opera bug when the
@@ -2781,19 +2892,27 @@ footer {
   clear: both; }
 
 /* ==========================================================================
- *   EXAMPLE Media Queries for Responsive Design.
- *   These examples override the primary ('mobile first') styles.
- *   Modify as content requires.
- *   ========================================================================== */
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   @mixin ========================================================================= */
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */ }
+
+@media only screen and (min-width: 64em) {
+  .mobile {
+    display: none; }
+  .desktop {
+    display: block !important; } }
+
 @media print, (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 1.25dppx), (min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */ }
+
 /* ==========================================================================
- * Print styles.
- * Inlined to avoid the additional HTTP request:
- * http://www.phpied.com/delay-loading-your-print-css/
- * ========================================================================== */
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   @mixin ========================================================================= */
 @media print {
   *,
   *:before,
@@ -2804,50 +2923,41 @@ footer {
     color: #000 !important;
     box-shadow: none !important;
     text-shadow: none !important; }
-
   a,
   a:visited {
     text-decoration: underline; }
-
   a[href]:after {
     content: " (" attr(href) ")"; }
-
   abbr[title]:after {
     content: " (" attr(title) ")"; }
-
-  /* Don't show links that are fragment identifiers,
+  /*
+   * Don't show links that are fragment identifiers,
    * or use the `javascript:` pseudo protocol
    */
   a[href^="#"]:after,
   a[href^="javascript:"]:after {
     content: ""; }
-
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid; }
-
-  /* Printing Tables:
+  /*
+   * Printing Tables:
    * http://css-discuss.incutio.com/wiki/Printing_Tables
    */
   thead {
     display: table-header-group; }
-
   tr,
   img {
     page-break-inside: avoid; }
-
   img {
     max-width: 100% !important; }
-
   p,
   h2,
   h3 {
     orphans: 3;
     widows: 3; }
-
   h2,
   h3 {
     page-break-after: avoid; } }
-
 /*# sourceMappingURL=main.css.map */
