@@ -2738,6 +2738,10 @@ nav ul {
     margin: 0 auto;
     text-align: center;
     text-transform: uppercase; }
+    .main--wrapper .results h2:before, .main--wrapper .results h2:after {
+      content: "-";
+      font-size: 7.81vw;
+      font-weight: normal; }
   .main--wrapper .results div {
     box-sizing: border-box;
     padding: 0 0 31.25vw; }
@@ -2988,9 +2992,7 @@ nav ul {
       .main--wrapper .results h2 {
         font-size: 1.56em; }
         .main--wrapper .results h2:before, .main--wrapper .results h2:after {
-          content: "-";
-          font-size: 30px;
-          font-weight: normal; }
+          font-size: 30px; }
       .main--wrapper .results div {
         box-sizing: border-box;
         -ms-flex-flow: column nowrap;
