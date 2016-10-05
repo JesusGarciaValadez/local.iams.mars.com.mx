@@ -2968,12 +2968,12 @@ nav ul {
     position: relative; }
     .announce--wrapper .announce--wrapper__announce {
       font-size: 4.03vw;
-      height: 258px;
+      height: 17.02vw;
       left: 0;
       margin: 0;
       padding: 1.41vw 0 0 9.37vw;
       text-shadow: 5px 5px 0 #c58d2c;
-      width: 100%; }
+      width: 50%; }
 
   .main--wrapper {
     position: relative; }
@@ -3030,6 +3030,8 @@ nav ul {
       -ms-flex-item-align: center;
           align-self: center;
       width: 50%; }
+    .brands--wrapper .announce--wrapper .announce--wrapper__announce {
+      width: 100%; }
     .brands--wrapper .superama {
       box-sizing: border-box;
       display: -webkit-inline-box;
