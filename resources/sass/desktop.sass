@@ -9,15 +9,20 @@
   position: relative
   width: 960px
 
-header
+.header--wrapper
   img
   nav
 
-.banner
-  background: none
+.banner--wrapper
+  background: url( "../img/desktop/perro-paseando-por-la-playa.png" ) no-repeat scroll 0 0 transparent
+  background-size: 100%
   display: flex
   flex-flow: column nowrap
-  height: 608px
+  height: 48.4666666667vw
+  overflow: unset
+  .banner--wrapper__banner
+    height: 100%
+    margin: 0 auto
   img
     align-self: flex-start
     left: unset
@@ -25,32 +30,32 @@ header
     right: 0
     transform: unset
     &.iams
-      top: 200px
+      top: 16vw
       width: 535px
     &.superama
       transform: translate( -15%, 0)
-      top: 340px
+      top: 26vw
       width: 425px
 
-.announce
-  height: 258px
-  left: 0
+.announce--wrapper
   position: relative
-  h4
+  .announce--wrapper__announce
     font-size: em( 70, 16 )
+    height: 258px
+    left: 0
+    margin: 0
     padding: 15px 0 0 160px
-
-main
-  background: url( "../img/desktop/perro-paseando-por-la-playa.png" ) no-repeat scroll 0 0 transparent
-  background-size: 100%
-  position: relative
-  div.container
-    display: flex
-    flex-flow: column nowrap
-  .announce
-    top: -7.095709571vw
     width: 760px
+
+.main--wrapper
+  position: relative
+  .announce--wrapper
+    height: 0
+    .announce--wrapper__announce
+      transform: translate( 0, -26% )
+      top: 25%
   .results
+    margin: 230px 0 0
     h1
       font-size: em( 40px, 16 )
       strong
@@ -64,6 +69,7 @@ main
     div
       box-sizing: border-box
       flex-flow: column nowrap
+      margin: 50px 0 0
       padding: 0 0 150px
     article
       display: inline-flex
@@ -85,27 +91,38 @@ main
         margin-right: auto
         width: 80%
 
-section.wrapper
+.brands--wrapper
   display: flex
   flex-flow: row nowrap
   article
     align-self: center
-    with: 50%
+    width: 50%
   .announce
     h4
   .superama
+    box-sizing: border-box
+    display: inline-flex
+    flex-flow: column nowrap
+    padding: 0
     img
+      align-self: center
       display: block
       margin: 0 auto
+      width: auto
 
-.bags
+.bags--wrapper
   height: auto
+  overflow: hidden
+  top: 0
   img
 
-footer
-  padding: 50px 0
+.footer--wrapper
+  margin: 0 auto
+  padding: 0 0 50px
   h4
     font-size: em( 25px, 16 )
+    margin-top: 0
+    padding-top: 0
   nav
     box-sizing: border-box
     margin-bottom: 50px
@@ -121,3 +138,10 @@ footer
           i
   p
     font-size: em( 13px, 16 )
+
+.oval
+  &:before
+    bottom: unset
+    height: 490px
+    top: 430px
+    width: 130%

@@ -3,14 +3,14 @@
 .desktop
   display: none
 
-.wrapper
+.wrapper, .container
   width: 100%
 
 body
   display: block
   width: 100%
 
-header
+.header--wrapper
   background-color: $green-header
   display: flex
   flex-flow: row nowrap
@@ -18,7 +18,6 @@ header
   width: 100%
   img
     align-self: center
-    display: inline-block
     margin: 15px 0 15px 15px
   nav
     position: absolute
@@ -41,11 +40,13 @@ nav
           &:before
             color: #fff
 
-.banner
+.banner--wrapper
   background: url( "../img/mobile/cover.png" ) no-repeat scroll 0 0 transparent
   background-size: 100%
   height: 150.9375vw
-  width: 100%
+  overflow: none
+  .banner--wrapper__banner
+    margin: 0
   img
     left: 50%
     margin: 0
@@ -56,26 +57,32 @@ nav
     &.superama
       top: 18.75vw
 
-.announce
-  background: url( "../img/desktop/llego-a-mexico.png" ) no-repeat scroll 0 0 transparent
-  background-size: 100%
-  height: 34.375vw
+.announce--wrapper
   position: relative
   width: 100%
-  h4
+  .announce--wrapper__announce
+    background: url( "../img/desktop/llego-a-mexico.png" ) no-repeat scroll 0 0 transparent
+    background-size: 100%
+    box-sizing: border-box
     color: $white
     display: block
     font: normal 900 8.75vw/1.2em 'Gotham'
+    height: 33.75vw
     letter-spacing: 0.2px
     margin: 0
     padding: 2.1875vw 0 0 12.5vw
     text-transform: uppercase
     text-shadow: 3px 3px 0 #c58d2c
+    width: 100%
 
-main
-  .announce
-    top: -9.375vw
+.main--wrapper
+  .announce--wrapper
+    height: 0
+    .announce--wrapper__announce
+      position: absolute
+      top: -9.375vw
   .results
+    margin: 31.25vw 0 0
     h1
       color: $green-header
       display: block
@@ -130,7 +137,7 @@ main
         margin: 5vw 2.8125vw 0
         text-align: center
 
-section.wrapper
+.brands--wrapper
   display: flex
   flex-flow: column nowrap
   padding: 0 0 40px
@@ -147,22 +154,30 @@ section.wrapper
       margin: 0 auto
       width: 80%
 
-.bags
+.bags--wrapper
   display: flex
   flex-flow: column nowrap
-  height: calc( 156px )
+  height: 150px
   margin: 0 auto
   padding: 0
   position: relative
   top: -35px
+  z-index: 1
+  .announce--wrapper
+    height: 34.375vw
   img
-    align-center: center
+    align-self: center
     margin: 0 auto
+    position: relative
+    z-index: 1
 
-footer
-  background-color: $green-header
-  padding: 33.125vw 0 15.625vw
+.footer--wrapper
+  background-color: $green-footer
+  margin: 6.25vw 0 0
+  padding: 62.5vw 0 15.625vw
+  position: relative
   width: 100%
+  z-index: 0
   h4
     color: #fff
     font: normal 900 18px/1.4em 'Gotham'
@@ -186,3 +201,17 @@ footer
     padding: 0 1.5625vw
     text-align: center
     width: auto
+
+.oval
+  &:before
+    background: $green-footer
+    border-radius: 50%
+    border: 1px solid $green-footer
+    bottom: -100px
+    content: ""
+    position: absolute
+    height: 80px
+    left: 50%
+    transform: translate( -50%, 0 )
+    width: 100%
+    z-index: 0
