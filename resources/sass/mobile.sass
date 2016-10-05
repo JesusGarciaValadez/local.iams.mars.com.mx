@@ -98,14 +98,24 @@ nav
     h2
       color: $green-header
       display: block
-      font: normal 900 15px/1.2em 'GothamBlack'
+      font: normal 900 15px/1em 'GothamBlack'
       letter-spacing: 0.2px
       margin: 0 auto
       text-align: center
       text-transform: uppercase
       &:before, &:after
         content: "-"
-        font: normal 7.8125vw/1em 'GothamLight'
+        display: inline-block
+        font: normal 65px/0 'GothamLight'
+        height: 4px
+        position: relative
+        top: 0
+        transform: translate( 0, 330% )
+      &:before
+        left: 0
+      &:after
+        right: 0
+
     div
       box-sizing: border-box
       padding: 0 0 31.25vw
