@@ -1,5 +1,123 @@
 .mobile
   display: none
 .desktop
-  display: block !important
+  display: block
 
+.container
+  display: block
+  margin: 0 auto
+  position: relative
+  width: 960px
+
+header
+  img
+  nav
+
+.banner
+  background: none
+  display: flex
+  flex-flow: column nowrap
+  height: 608px
+  img
+    align-self: flex-start
+    left: unset
+    position: absolute
+    right: 0
+    transform: unset
+    &.iams
+      top: 200px
+      width: 535px
+    &.superama
+      transform: translate( -15%, 0)
+      top: 340px
+      width: 425px
+
+.announce
+  height: 258px
+  left: 0
+  position: relative
+  h4
+    font-size: em( 70, 16 )
+    padding: 15px 0 0 160px
+
+main
+  background: url( "../img/desktop/perro-paseando-por-la-playa.png" ) no-repeat scroll 0 0 transparent
+  background-size: 100%
+  position: relative
+  div.container
+    display: flex
+    flex-flow: column nowrap
+  .announce
+    top: -7.095709571vw
+    width: 760px
+  .results
+    h1
+      font-size: em( 40px, 16 )
+      strong
+        font-size: em( 60px, 40 )
+    h2
+      font-size: em( 25, 16 )
+      &:before, &:after
+        content: "-"
+        font-size: 30px
+        font-weight: normal
+    div
+      box-sizing: border-box
+      flex-flow: column nowrap
+      padding: 0 0 150px
+    article
+      display: inline-flex
+      flex-flow: column nowrap
+      margin: 0
+      padding: 0
+      width: 33%
+      figure
+        img
+        p
+          font-size: em( 25px, 16 )
+        figcaption
+          font-size: em( 25px, 16 )
+          span
+            font-size: em( 50px, 25 )
+      p
+        font-size: em( 16px, 16 )
+        margin-left: auto
+        margin-right: auto
+        width: 80%
+
+section.wrapper
+  display: flex
+  flex-flow: row nowrap
+  article
+    align-self: center
+    with: 50%
+  .announce
+    h4
+  .superama
+    img
+      display: block
+      margin: 0 auto
+
+.bags
+  height: auto
+  img
+
+footer
+  padding: 50px 0
+  h4
+    font-size: em( 25px, 16 )
+  nav
+    box-sizing: border-box
+    margin-bottom: 50px
+    width: 275px
+    ul
+      li
+        margin: 20px 40px 0
+        &:first-child
+          margin-left: 0
+        &:last-child
+          margin-right: 0
+        a
+          i
+  p
+    font-size: em( 13px, 16 )

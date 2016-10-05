@@ -2650,6 +2650,9 @@ textarea {
 .desktop {
   display: none; }
 
+.wrapper {
+  width: 100%; }
+
 body {
   display: block;
   width: 100%; }
@@ -2691,29 +2694,29 @@ nav ul {
       nav ul li a i:before {
         color: #fff; }
 
-section.banner {
+.banner {
   background: url("../img/mobile/cover.png") no-repeat scroll 0 0 transparent;
   background-size: 100%;
   height: 150.9375vw;
   width: 100%; }
-  section.banner img {
+  .banner img {
     left: 50%;
     margin: 0;
     position: relative;
     -webkit-transform: translate(-50%, 0);
             transform: translate(-50%, 0); }
-    section.banner img.iams {
+    .banner img.iams {
       top: 12.5vw; }
-    section.banner img.superama {
+    .banner img.superama {
       top: 18.75vw; }
 
-section.announce {
+.announce {
   background: url("../img/desktop/llego-a-mexico.png") no-repeat scroll 0 0 transparent;
   background-size: 100%;
   height: 34.375vw;
   position: relative;
   width: 100%; }
-  section.announce h4 {
+  .announce h4 {
     color: #fff;
     display: block;
     font: normal 900 8.75vw/1.2em 'Gotham';
@@ -2783,14 +2786,26 @@ main .results article {
     margin: 5vw 2.8125vw 0;
     text-align: center; }
 
-.mobile.superama {
-  margin: 0 0 9.375vw; }
-  .mobile.superama figure {
-    margin: 12.5vw; }
-    .mobile.superama figure img {
-      margin: 0 auto; }
+section.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: column nowrap;
+      flex-flow: column nowrap;
+  padding: 0 0 40px; }
+  section.wrapper article {
+    -ms-flex-item-align: center;
+        align-self: center;
+    with: 100%; }
+  section.wrapper .superama {
+    box-sizing: border-box;
+    padding: 10%; }
+    section.wrapper .superama img {
+      display: block;
+      margin: 0 auto;
+      width: 80%; }
 
-figure.bags {
+.bags {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2801,7 +2816,7 @@ figure.bags {
   padding: 0;
   position: relative;
   top: -35px; }
-  figure.bags img {
+  .bags img {
     align-center: center;
     margin: 0 auto; }
 
@@ -2811,14 +2826,15 @@ footer {
   width: 100%; }
   footer h4 {
     color: #fff;
-    height: 10.5px;
     font: normal 900 18px/1.4em 'Gotham';
     text-align: center;
+    text-transform: uppercase;
     width: 100%; }
   footer nav {
     margin: 0 auto 14.6875vw;
     width: 71.875vw; }
     footer nav ul li {
+      box-sizing: border-box;
       margin: 3.125vw 7.8125vw; }
   footer p {
     color: #fff;
@@ -2903,7 +2919,122 @@ footer {
   .mobile {
     display: none; }
   .desktop {
-    display: block !important; } }
+    display: block; }
+  .container {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    width: 960px; }
+  .banner {
+    background: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: column nowrap;
+        flex-flow: column nowrap;
+    height: 608px; }
+    .banner img {
+      -ms-flex-item-align: start;
+          align-self: flex-start;
+      left: unset;
+      position: absolute;
+      right: 0;
+      -webkit-transform: unset;
+              transform: unset; }
+      .banner img.iams {
+        top: 200px;
+        width: 535px; }
+      .banner img.superama {
+        -webkit-transform: translate(-15%, 0);
+                transform: translate(-15%, 0);
+        top: 340px;
+        width: 425px; }
+  .announce {
+    height: 258px;
+    left: 0;
+    position: relative; }
+    .announce h4 {
+      font-size: 4.38em;
+      padding: 15px 0 0 160px; }
+  main {
+    background: url("../img/desktop/perro-paseando-por-la-playa.png") no-repeat scroll 0 0 transparent;
+    background-size: 100%;
+    position: relative; }
+    main div.container {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap; }
+    main .announce {
+      top: -7.095709571vw;
+      width: 760px; }
+    main .results h1 {
+      font-size: 2.5em; }
+      main .results h1 strong {
+        font-size: 1.5em; }
+    main .results h2 {
+      font-size: 1.56em; }
+      main .results h2:before, main .results h2:after {
+        content: "-";
+        font-size: 30px;
+        font-weight: normal; }
+    main .results div {
+      box-sizing: border-box;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+      padding: 0 0 150px; }
+    main .results article {
+      display: -webkit-inline-box;
+      display: -ms-inline-flexbox;
+      display: inline-flex;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+      margin: 0;
+      padding: 0;
+      width: 33%; }
+      main .results article figure p {
+        font-size: 1.56em; }
+      main .results article figure figcaption {
+        font-size: 1.56em; }
+        main .results article figure figcaption span {
+          font-size: 2em; }
+      main .results article p {
+        font-size: 1em;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%; }
+  section.wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap; }
+    section.wrapper article {
+      -ms-flex-item-align: center;
+          align-self: center;
+      with: 50%; }
+    section.wrapper .superama img {
+      display: block;
+      margin: 0 auto; }
+  .bags {
+    height: auto; }
+  footer {
+    padding: 50px 0; }
+    footer h4 {
+      font-size: 1.56em; }
+    footer nav {
+      box-sizing: border-box;
+      margin-bottom: 50px;
+      width: 275px; }
+      footer nav ul li {
+        margin: 20px 40px 0; }
+        footer nav ul li:first-child {
+          margin-left: 0; }
+        footer nav ul li:last-child {
+          margin-right: 0; }
+    footer p {
+      font-size: 0.81em; } }
 
 @media print, (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 1.25dppx), (min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */ }
