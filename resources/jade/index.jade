@@ -6,9 +6,21 @@ html.no-js(lang='es')
     title IAMS
     meta(name='description', content='')
     meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=yes')
-    link(rel='apple-touch-icon', href='favicon.png')
-    link(rel='icon', href='favicon.ico')
+
     // Place favicon.ico in the root directory
+    link(rel='apple-touch-icon', type="image/x-png", href='/favicon.png')
+
+    // Standard Favicon
+    link(rel="icon", type="image/x-icon", href="/favicon.ico")
+
+    // For iPhone 4 Retina display:
+    link(rel="apple-touch-icon-precomposed", sizes="32x32", href="/favicon.png")
+
+    // For iPad:
+    link(rel="apple-touch-icon-precomposed", sizes="32x32", href="/favicon.png")
+
+    link(rel="mask-icon", sizes="any", href="/favicon.png")
+
     link(rel='stylesheet', href='https://use.fontawesome.com/c5baf16326.css')
     link(rel='stylesheet', href='css/main.css')
     script(src='js/vendor/modernizr-2.8.3.min.js')
