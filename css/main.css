@@ -3190,11 +3190,11 @@ aside {
       margin: 0.98vw auto;
       width: 41.99vw; }
       .footer--wrapper .footer__links li:after {
-        font-size: 1em; }
+        font-size: 1.56vw; }
       .footer--wrapper .footer__links li a {
-        font-size: 1em; }
+        font-size: 1.56vw; }
     .footer--wrapper p {
-      font-size: 0.81em; }
+      font-size: 1.27vw; }
 
   .oval:before {
     bottom: unset;
