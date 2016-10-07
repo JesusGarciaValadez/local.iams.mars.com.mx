@@ -30,12 +30,12 @@
     right: 0
     transform: unset
     &.iams
-      top: 16.6015625vw
-      width: 535px
+      top: 14.6484375vw
     &.superama
-      transform: translate( -15%, 0)
-      top: 29.296875vw
-      width: 425px
+      float: right
+      transform: translate( 0, 0)
+      position: relative
+      top: 52%
 
 .announce--wrapper
   position: relative
@@ -123,7 +123,7 @@
     font-size: em( 25px, 16 )
     margin-top: 0
     padding-top: 0
-  nav
+  .footer__social
     box-sizing: border-box
     margin-bottom: 50px
     width: 275px
@@ -136,6 +136,14 @@
           margin-right: 0
         a
           i
+  .footer__links
+    margin: 0.9765625vw auto
+    width: 41.9921875vw
+    li
+      &:after
+        font-size: em( 16, 16 )
+      a
+        font-size: em( 16, 16 )
   p
     font-size: em( 13px, 16 )
 
@@ -145,3 +153,18 @@
     height: 490px
     top: 430px
     width: 130%
+
+aside
+  .close
+    height: 50px
+    width: 50px
+    &:after
+      font: normal 30px/50px "GothamBook"
+  h4
+    font: normal bold 20px/1em 'GothamBlack'
+  h5
+    font: normal bold 18px/1em 'GothamBlack'
+  h6
+    font: normal bold 16px/1em 'GothamBlack'
+  p
+    font-size: em( 16px, 16 )

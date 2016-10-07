@@ -187,7 +187,7 @@ nav
 .footer--wrapper
   background-color: $green-footer
   margin: 6.25vw 0 0
-  padding: 62.5vw 0 15.625vw
+  padding: 31.25vw 0 15.625vw
   position: relative
   width: 100%
   z-index: 0
@@ -197,7 +197,7 @@ nav
     text-align: center
     text-transform: uppercase
     width: 100%
-  nav
+  .footer__social
     margin: 0 auto 14.6875vw
     width: 71.875vw
     ul
@@ -206,6 +206,35 @@ nav
         margin: 3.125vw 7.8125vw
         a
           i
+  .footer__links
+    box-sizing: border-box
+    display: flex
+    flex-flow: row nowrap
+    margin: 4.6875vw auto
+    padding: 0
+    width: 90.625vw
+    li
+      list-style: none inside
+      padding: 0 1.5625vw
+      position: relative
+      &:after
+        content: "|"
+        color: $white
+        font: normal 3.44vw/2em "GothamLight"
+        right: -1px
+        position: absolute
+        transform: translate(0, -50%)
+        top: 50%
+      &:first-child
+        padding-left: 0
+      &:last-child
+        padding-right: 0
+        &:after
+          content: ""
+      a
+        color: $white
+        font: normal 900 3.4375vw/2em 'GothamLight'
+        text-decoration: none
   p
     color: #fff
     font: normal 900 3.4375vw/2em 'GothamBlack'
@@ -218,7 +247,7 @@ nav
 .oval
   &:before
     background: $green-footer
-    border-radius: 50%
+    border-radius: 50% 50% 0 0
     border: 1px solid $green-footer
     bottom: -100px
     content: ""
@@ -228,3 +257,73 @@ nav
     transform: translate( -50%, 0 )
     width: 100%
     z-index: 0
+
+aside
+  background-color: $grey-bg
+  border-radius: 5px
+  box-sizing: border-box
+  display: none
+  filter: opacity( 0.95 )
+  left: 50%
+  padding: 4.6875vw
+  position: absolute
+  transition: all 0.5s ease-out
+  transform: translate( -50%, 0 )
+  top: 0
+  width: 100%
+  z-index: 1
+  &:target
+    display: block
+    transition: all 0.5s ease-in
+  .close
+    box-sizing: border-box
+    color: $grey
+    display: block
+    float: right
+    font: 0/0 "GothamBook"
+    height: 9.375vw
+    position: relative
+    width: 9.375vw
+    &:before
+      background-color: $grey-bg
+      box-sizing: border-box
+      border-radius: 50%
+      border: 3px solid $grey
+      content: ""
+      display: block
+      height: 100%
+      width: 100%
+      z-index: 0
+    &:after
+      content: "X"
+      display: block
+      font: normal 6.25vw/9.375vw "GothamBook"
+      height: 100%
+      left: 0
+      position: absolute
+      text-align: center
+      top: 0
+      width: 100%
+      z-index: 1
+  h4, h5, h6
+    color: $green-header
+    display: block
+    letter-spacing: 0.2px
+    margin: 0 auto
+    text-align: center
+    text-transform: uppercase
+  h4
+    font: normal bold 4.0625vw/1em 'GothamBlack'
+  h5
+    font: normal bold 5.625vw/1em 'GothamBlack'
+  h6
+    font: normal bold 5vw/1em 'GothamBlack'
+  p
+    color: $grey
+    display: block
+    font: normal 4.375vw/1.2em 'GothamLight'
+    text-align: left
+    strong, a
+      color: $grey
+      font-family: 'GothamBlack'
+

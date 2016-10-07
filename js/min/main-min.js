@@ -1,0 +1,1 @@
+$(function(){$("aside").on("click",'input[type="checkbox"]',function(t){t.preventDefault(),t.stopPropagation(),$(t.currentTarget).ancestor("aside")})});

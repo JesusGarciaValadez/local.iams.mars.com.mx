@@ -17,7 +17,7 @@ body {
   margin: 0; }
 
 /* HTML5 display definitions
-   @mixin ========================================================================= */
+ * ========================================================================== */
 /**
  * Correct `block` display not defined for any HTML5 element in IE 8/9.
  * Correct `block` display not defined for `details` or `summary` in IE 10/11
@@ -67,7 +67,7 @@ template {
   display: none; }
 
 /* Links
-   @mixin ========================================================================= */
+ * ========================================================================== */
 /**
  * Remove the gray background color from active links in IE 10.
  */
@@ -83,7 +83,7 @@ a:hover {
   outline: 0; }
 
 /* Text-level semantics
-   @mixin ========================================================================= */
+ * ========================================================================== */
 /**
  * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
  */
@@ -141,7 +141,7 @@ sub {
   bottom: -0.25em; }
 
 /* Embedded content
-   @mixin ========================================================================= */
+ * ========================================================================== */
 /**
  * Remove border when inside `a` element in IE 8/9/10.
  */
@@ -155,7 +155,7 @@ svg:not(:root) {
   overflow: hidden; }
 
 /* Grouping content
-   @mixin ========================================================================= */
+ * ========================================================================== */
 /**
  * Address margin not present in IE 8/9 and Safari.
  */
@@ -186,7 +186,7 @@ samp {
   font-size: 1em; }
 
 /* Forms
-   @mixin ========================================================================= */
+ * ========================================================================== */
 /**
  * Known limitation: by default, Chrome and Safari on OS X allow very limited
  * styling of `select`, unless a `border` property is set.
@@ -300,7 +300,7 @@ input[type="search"]::-webkit-search-decoration {
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em; }
+  padding: 0.35em 0.63em 0.75em; }
 
 /**
  * 1. Correct `color` not being inherited in IE 8/9/10/11.
@@ -324,7 +324,7 @@ optgroup {
   font-weight: bold; }
 
 /* Tables
-   @mixin ========================================================================= */
+ * ========================================================================== */
 /**
  * Remove most spacing between table cells.
  */
@@ -348,7 +348,6 @@ th {
   src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.6.3") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff2?v=4.6.3") format("woff2"), url("../fonts/fontawesome-webfont.woff?v=4.6.3") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=4.6.3") format("truetype"), url("../fonts/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 .fa {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
@@ -408,7 +407,6 @@ th {
 
 .fa.fa-pull-left {
   margin-right: .3em; }
-
 .fa.fa-pull-right {
   margin-left: .3em; }
 
@@ -421,7 +419,6 @@ th {
 
 .fa.pull-left {
   margin-right: .3em; }
-
 .fa.pull-right {
   margin-left: .3em; }
 
@@ -440,7 +437,6 @@ th {
   100% {
     -webkit-transform: rotate(359deg);
     transform: rotate(359deg); } }
-
 @keyframes fa-spin {
   0% {
     -webkit-transform: rotate(0deg);
@@ -448,7 +444,6 @@ th {
   100% {
     -webkit-transform: rotate(359deg);
     transform: rotate(359deg); } }
-
 .fa-rotate-90 {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
   -webkit-transform: rotate(90deg);
@@ -2528,59 +2523,50 @@ th {
   font-style: normal;
   font-weight: normal;
   src: url("../fonts/Gotham-Black.ttf") format("truetype"); }
-
 @font-face {
   font-family: "GothamBold";
   font-style: normal;
   font-weight: bold;
   src: url("../fonts/Gotham-Bold.ttf") format("truetype"); }
-
 @font-face {
   font-family: "GothamBook";
   font-style: normal;
   font-weight: bold;
   src: url("../fonts/Gotham-Book.ttf") format("truetype"); }
-
 @font-face {
   font-family: "GothamLight";
   font-style: normal;
   font-weight: normal;
   src: url("../fonts/Gotham-Light.ttf") format("truetype"); }
-
 @font-face {
   font-family: "GothamRoundedBook";
   font-style: normal;
   font-weight: normal;
   src: url("../fonts/GothamRounded-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamRounded-Book.woff2") format("woff2"), url("../fonts/GothamRounded-Book.woff") format("woff"), url("../fonts/GothamRounded-Book.ttf") format("truetype"), url("../fonts/GothamRounded-Book.svg#GothamRoundedBook") format("svg"); }
-
 @font-face {
   font-family: "GothamRoundedMedium";
   font-style: normal;
   font-weight: normal;
   src: url("../fonts/GothamRounded-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamRounded-Medium.woff2") format("woff2"), url("../fonts/GothamRounded-Medium.woff") format("woff"), url("../fonts/GothamRounded-Medium.ttf") format("truetype"), url("../fonts/GothamRounded-Medium.svg#GothamRoundedMedium") format("svg"); }
-
 @font-face {
   font-family: "LibelSuitRg";
   font-style: normal;
   font-weight: normal;
   src: url("../fonts/libel-suit-rg.ttf") format("truetype"); }
-
 /*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
-/*
- * What follows is the result of much research on cross-browser styling.
+/* What follows is the result of much research on cross-browser styling.
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
  * Kroc Camen, and the H5BP dev community and team.
  */
 /* ==========================================================================
-   Base styles: opinionated defaults
-   @mixin ========================================================================= */
+ * Base styles: opinionated defaults
+ * ========================================================================== */
 html {
   color: #222;
   font-size: 1em;
   line-height: 1.4; }
 
-/*
- * Remove text-shadow in selection highlight:
+/* Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
  *
  * These selection rule sets have to be separate.
@@ -2594,8 +2580,7 @@ html {
   background: #b3d4fc;
   text-shadow: none; }
 
-/*
- * A better looking default horizontal rule
+/* A better looking default horizontal rule
  */
 hr {
   display: block;
@@ -2605,8 +2590,7 @@ hr {
   margin: 1em 0;
   padding: 0; }
 
-/*
- * Remove the gap between audio, canvas, iframes,
+/* Remove the gap between audio, canvas, iframes,
  * images, videos and the bottom of their containers:
  * https://github.com/h5bp/html5-boilerplate/issues/440
  */
@@ -2618,23 +2602,21 @@ svg,
 video {
   vertical-align: middle; }
 
-/*
- * Remove default fieldset styles.
+/* Remove default fieldset styles.
  */
 fieldset {
   border: 0;
   margin: 0;
   padding: 0; }
 
-/*
- * Allow only vertical resizing of textareas.
+/* Allow only vertical resizing of textareas.
  */
 textarea {
   resize: vertical; }
 
 /* ==========================================================================
-   Browser Upgrade Prompt
-   @mixin ========================================================================= */
+ * Browser Upgrade Prompt
+ * ========================================================================== */
 .browserupgrade {
   margin: 0.2em 0;
   background: #ccc;
@@ -2642,8 +2624,8 @@ textarea {
   padding: 0.2em 0; }
 
 /* ==========================================================================
-   Author's custom styles
-   @mixin ========================================================================= */
+ *   Author's custom styles
+ *   ========================================================================== */
 .mobile {
   display: block; }
 
@@ -2696,7 +2678,7 @@ nav ul {
 .banner--wrapper {
   background: url("../img/mobile/cover.png") no-repeat scroll 0 0 transparent;
   background-size: 100%;
-  height: 150.9375vw;
+  height: 150.94vw;
   overflow: none; }
   .banner--wrapper .banner--wrapper__banner {
     margin: 0; }
@@ -2720,11 +2702,11 @@ nav ul {
     box-sizing: border-box;
     color: #fff;
     display: block;
-    font: normal 900 8.75vw/1.2em 'GothamBlack';
+    font: normal 900 8.75vw/1.2em "GothamBlack";
     height: 33.75vw;
     letter-spacing: 0.2px;
     margin: 0;
-    padding: 2.1875vw 0 0 12.5vw;
+    padding: 2.19vw 0 0 12.5vw;
     text-transform: uppercase;
     text-shadow: 3px 3px 0 #c58d2c;
     width: 100%; }
@@ -2733,26 +2715,25 @@ nav ul {
   height: 0; }
   .main--wrapper .announce--wrapper .announce--wrapper__announce {
     position: absolute;
-    top: -9.375vw; }
-
+    top: -9.38vw; }
 .main--wrapper .results {
   margin: 31.25vw 0 0; }
   .main--wrapper .results h1 {
     color: #009943;
     display: block;
-    font: bold 20px/1.2em 'GothamBlack';
+    font: bold 20px/1.2em "GothamBlack";
     letter-spacing: 0.3px;
     margin: 0 auto;
     text-align: center;
     text-transform: uppercase; }
     .main--wrapper .results h1 strong {
       color: #404041;
-      font: normal 900 30px/1.2em 'GothamBlack';
+      font: normal 900 30px/1.2em "GothamBlack";
       letter-spacing: 0.5px; }
   .main--wrapper .results h2 {
     color: #009943;
     display: block;
-    font: normal 900 15px/1em 'GothamBlack';
+    font: normal 900 15px/1em "GothamBlack";
     letter-spacing: 0.2px;
     margin: 0 auto;
     text-align: center;
@@ -2760,7 +2741,7 @@ nav ul {
     .main--wrapper .results h2:before, .main--wrapper .results h2:after {
       content: "-";
       display: inline-block;
-      font: normal 65px/0 'GothamLight';
+      font: normal 65px/0 "GothamLight";
       height: 4px;
       position: relative;
       top: 0;
@@ -2776,7 +2757,7 @@ nav ul {
   .main--wrapper .results article {
     box-sizing: border-box;
     display: block;
-    margin: 10.9375vw auto; }
+    margin: 10.94vw auto; }
     .main--wrapper .results article figure {
       margin: 0 auto; }
       .main--wrapper .results article figure img {
@@ -2786,22 +2767,22 @@ nav ul {
         color: #009943;
         display: block;
         margin: 5vw auto 0;
-        width: 29.6875vw; }
+        width: 29.69vw; }
       .main--wrapper .results article figure figcaption {
         color: #404041;
         display: block;
-        font: normal 8.75vw/1.2em 'LibelSuitRg';
+        font: normal 8.75vw/1.2em "LibelSuitRg";
         text-align: center;
         text-transform: uppercase; }
         .main--wrapper .results article figure figcaption span {
           color: #404041;
           display: block;
-          font: normal 17.1875vw/1.2em 'LibelSuitRg'; }
+          font: normal 17.19vw/1.2em "LibelSuitRg"; }
     .main--wrapper .results article p {
       color: #404041;
-      font: normal 6.25vw/1.4em 'GothamBook';
+      font: normal 6.25vw/1.4em "GothamBook";
       letter-spacing: 0.2px;
-      margin: 5vw 2.8125vw 0;
+      margin: 5vw 2.81vw 0;
       text-align: center; }
 
 .brands--wrapper {
@@ -2836,7 +2817,7 @@ nav ul {
   top: -35px;
   z-index: 1; }
   .bags--wrapper .announce--wrapper {
-    height: 34.375vw; }
+    height: 34.38vw; }
   .bags--wrapper img {
     -ms-flex-item-align: center;
         align-self: center;
@@ -2847,34 +2828,67 @@ nav ul {
 .footer--wrapper {
   background-color: #009a4d;
   margin: 6.25vw 0 0;
-  padding: 62.5vw 0 15.625vw;
+  padding: 31.25vw 0 15.63vw;
   position: relative;
   width: 100%;
   z-index: 0; }
   .footer--wrapper h4 {
     color: #fff;
-    font: normal 900 18px/1.4em 'GothamBlack';
+    font: normal 900 18px/1.4em "GothamBlack";
     text-align: center;
     text-transform: uppercase;
     width: 100%; }
-  .footer--wrapper nav {
-    margin: 0 auto 14.6875vw;
-    width: 71.875vw; }
-    .footer--wrapper nav ul li {
+  .footer--wrapper .footer__social {
+    margin: 0 auto 14.69vw;
+    width: 71.88vw; }
+    .footer--wrapper .footer__social ul li {
       box-sizing: border-box;
-      margin: 3.125vw 7.8125vw; }
+      margin: 3.13vw 7.81vw; }
+  .footer--wrapper .footer__links {
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+    margin: 4.69vw auto;
+    padding: 0;
+    width: 90.63vw; }
+    .footer--wrapper .footer__links li {
+      list-style: none inside;
+      padding: 0 1.56vw;
+      position: relative; }
+      .footer--wrapper .footer__links li:after {
+        content: "|";
+        color: #fff;
+        font: normal 3.44vw/2em "GothamLight";
+        right: -1px;
+        position: absolute;
+        -webkit-transform: translate(0, -50%);
+                transform: translate(0, -50%);
+        top: 50%; }
+      .footer--wrapper .footer__links li:first-child {
+        padding-left: 0; }
+      .footer--wrapper .footer__links li:last-child {
+        padding-right: 0; }
+        .footer--wrapper .footer__links li:last-child:after {
+          content: ""; }
+      .footer--wrapper .footer__links li a {
+        color: #fff;
+        font: normal 900 3.44vw/2em "GothamLight";
+        text-decoration: none; }
   .footer--wrapper p {
     color: #fff;
-    font: normal 900 3.4375vw/2em 'GothamBlack';
+    font: normal 900 3.44vw/2em "GothamBlack";
     letter-spacing: 0.2px;
     margin: 0 auto;
-    padding: 0 1.5625vw;
+    padding: 0 1.56vw;
     text-align: center;
     width: auto; }
 
 .oval:before {
   background: #009a4d;
-  border-radius: 50%;
+  border-radius: 50% 50% 0 0;
   border: 1px solid #009a4d;
   bottom: -100px;
   content: "";
@@ -2886,17 +2900,88 @@ nav ul {
   width: 100%;
   z-index: 0; }
 
+aside {
+  background-color: #F6F6F6;
+  border-radius: 5px;
+  box-sizing: border-box;
+  display: none;
+  -webkit-filter: opacity(0.95);
+          filter: opacity(0.95);
+  left: 50%;
+  padding: 4.69vw;
+  position: absolute;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  top: 0;
+  width: 100%;
+  z-index: 1; }
+  aside:target {
+    display: block;
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in; }
+  aside .close {
+    box-sizing: border-box;
+    color: #404041;
+    display: block;
+    float: right;
+    font: 0/0 "GothamBook";
+    height: 9.38vw;
+    position: relative;
+    width: 9.38vw; }
+    aside .close:before {
+      background-color: #F6F6F6;
+      box-sizing: border-box;
+      border-radius: 50%;
+      border: 3px solid #404041;
+      content: "";
+      display: block;
+      height: 100%;
+      width: 100%;
+      z-index: 0; }
+    aside .close:after {
+      content: "X";
+      display: block;
+      font: normal 6.25vw/9.38vw "GothamBook";
+      height: 100%;
+      left: 0;
+      position: absolute;
+      text-align: center;
+      top: 0;
+      width: 100%;
+      z-index: 1; }
+  aside h4, aside h5, aside h6 {
+    color: #009943;
+    display: block;
+    letter-spacing: 0.2px;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase; }
+  aside h4 {
+    font: normal bold 4.06vw/1em "GothamBlack"; }
+  aside h5 {
+    font: normal bold 5.63vw/1em "GothamBlack"; }
+  aside h6 {
+    font: normal bold 5vw/1em "GothamBlack"; }
+  aside p {
+    color: #404041;
+    display: block;
+    font: normal 4.38vw/1.2em "GothamLight";
+    text-align: left; }
+    aside p strong, aside p a {
+      color: #404041;
+      font-family: "GothamBlack"; }
+
 /* ==========================================================================
-   Helper classes
-   @mixin ========================================================================= */
-/*
- * Hide visually and from screen readers
+ *   Helper classes
+ *   ========================================================================== */
+/* Hide visually and from screen readers
  */
 .hidden {
   display: none !important; }
 
-/*
- * Hide only visually, but have it available for screen readers:
+/* Hide only visually, but have it available for screen readers:
  * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
  */
 .visuallyhidden {
@@ -2909,8 +2994,7 @@ nav ul {
   position: absolute;
   width: 1px; }
 
-/*
- * Extends the .visuallyhidden class to allow the element
+/* Extends the .visuallyhidden class to allow the element
  * to be focusable when navigated to via the keyboard:
  * https://www.drupal.org/node/897638
  */
@@ -2923,14 +3007,12 @@ nav ul {
   position: static;
   width: auto; }
 
-/*
- * Hide visually and from screen readers, but maintain layout
+/* Hide visually and from screen readers, but maintain layout
  */
 .invisible {
   visibility: hidden; }
 
-/*
- * Clearfix: contain floats
+/* Clearfix: contain floats
  *
  * For modern browsers
  * 1. The space content is one way to avoid an Opera bug when the
@@ -2949,23 +3031,25 @@ nav ul {
   clear: both; }
 
 /* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   @mixin ========================================================================= */
+ *   EXAMPLE Media Queries for Responsive Design.
+ *   These examples override the primary ('mobile first') styles.
+ *   Modify as content requires.
+ *   ========================================================================== */
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */ }
-
 @media only screen and (min-width: 64em) {
   .mobile {
     display: none; }
+
   .desktop {
     display: block; }
+
   .container {
     display: block;
     margin: 0 auto;
     position: relative;
     width: 960px; }
+
   .banner--wrapper {
     background: url("../img/desktop/perro-paseando-por-la-playa.png") no-repeat scroll 0 0 transparent;
     background-size: 100%;
@@ -2974,7 +3058,7 @@ nav ul {
     display: flex;
     -ms-flex-flow: column nowrap;
         flex-flow: column nowrap;
-    height: 48.4666666667vw;
+    height: 48.47vw;
     overflow: unset; }
     .banner--wrapper .banner--wrapper__banner {
       height: 100%;
@@ -2988,23 +3072,25 @@ nav ul {
       -webkit-transform: unset;
               transform: unset; }
       .banner--wrapper img.iams {
-        top: 16.6015625vw;
-        width: 535px; }
+        top: 14.65vw; }
       .banner--wrapper img.superama {
-        -webkit-transform: translate(-15%, 0);
-                transform: translate(-15%, 0);
-        top: 29.296875vw;
-        width: 425px; }
+        float: right;
+        -webkit-transform: translate(0, 0);
+                transform: translate(0, 0);
+        position: relative;
+        top: 52%; }
+
   .announce--wrapper {
     position: relative; }
     .announce--wrapper .announce--wrapper__announce {
-      font-size: 4.0299906279vw;
-      height: 17.0152628604vw;
+      font-size: 4.03vw;
+      height: 17.02vw;
       left: 0;
       margin: 0;
-      padding: 1.4058106842vw 0 0 9.3720712277vw;
+      padding: 1.41vw 0 0 9.37vw;
       text-shadow: 5px 5px 0 #c58d2c;
       width: 50%; }
+
   .main--wrapper {
     position: relative; }
     .main--wrapper .announce--wrapper {
@@ -3014,7 +3100,7 @@ nav ul {
                 transform: translate(0, -26%);
         top: 25%; }
     .main--wrapper .results {
-      margin: 16.1542470036vw 0 0; }
+      margin: 16.15vw 0 0; }
       .main--wrapper .results h1 {
         font-size: 2.5em; }
         .main--wrapper .results h1 strong {
@@ -3050,6 +3136,7 @@ nav ul {
           margin-left: auto;
           margin-right: auto;
           width: 80%; }
+
   .brands--wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3076,10 +3163,12 @@ nav ul {
         display: block;
         margin: 0 auto;
         width: auto; }
+
   .bags--wrapper {
     height: auto;
     overflow: hidden;
     top: 0; }
+
   .footer--wrapper {
     margin: 0 auto;
     padding: 0 0 50px; }
@@ -3087,32 +3176,52 @@ nav ul {
       font-size: 1.56em;
       margin-top: 0;
       padding-top: 0; }
-    .footer--wrapper nav {
+    .footer--wrapper .footer__social {
       box-sizing: border-box;
       margin-bottom: 50px;
       width: 275px; }
-      .footer--wrapper nav ul li {
+      .footer--wrapper .footer__social ul li {
         margin: 20px 40px 0; }
-        .footer--wrapper nav ul li:first-child {
+        .footer--wrapper .footer__social ul li:first-child {
           margin-left: 0; }
-        .footer--wrapper nav ul li:last-child {
+        .footer--wrapper .footer__social ul li:last-child {
           margin-right: 0; }
+    .footer--wrapper .footer__links {
+      margin: 0.98vw auto;
+      width: 41.99vw; }
+      .footer--wrapper .footer__links li:after {
+        font-size: 1em; }
+      .footer--wrapper .footer__links li a {
+        font-size: 1em; }
     .footer--wrapper p {
       font-size: 0.81em; }
+
   .oval:before {
     bottom: unset;
     height: 490px;
     top: 430px;
-    width: 130%; } }
+    width: 130%; }
 
+  aside .close {
+    height: 50px;
+    width: 50px; }
+    aside .close:after {
+      font: normal 30px/50px "GothamBook"; }
+  aside h4 {
+    font: normal bold 20px/1em "GothamBlack"; }
+  aside h5 {
+    font: normal bold 18px/1em "GothamBlack"; }
+  aside h6 {
+    font: normal bold 16px/1em "GothamBlack"; }
+  aside p {
+    font-size: 1em; } }
 @media print, (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 1.25dppx), (min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */ }
-
 /* ==========================================================================
-   Print styles.
-   Inlined to avoid the additional HTTP request:
-   http://www.phpied.com/delay-loading-your-print-css/
-   @mixin ========================================================================= */
+ * Print styles.
+ * Inlined to avoid the additional HTTP request:
+ * http://www.phpied.com/delay-loading-your-print-css/
+ * ========================================================================== */
 @media print {
   *,
   *:before,
@@ -3123,41 +3232,50 @@ nav ul {
     color: #000 !important;
     box-shadow: none !important;
     text-shadow: none !important; }
+
   a,
   a:visited {
     text-decoration: underline; }
+
   a[href]:after {
     content: " (" attr(href) ")"; }
+
   abbr[title]:after {
     content: " (" attr(title) ")"; }
-  /*
-   * Don't show links that are fragment identifiers,
+
+  /* Don't show links that are fragment identifiers,
    * or use the `javascript:` pseudo protocol
    */
   a[href^="#"]:after,
   a[href^="javascript:"]:after {
     content: ""; }
+
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid; }
-  /*
-   * Printing Tables:
+
+  /* Printing Tables:
    * http://css-discuss.incutio.com/wiki/Printing_Tables
    */
   thead {
     display: table-header-group; }
+
   tr,
   img {
     page-break-inside: avoid; }
+
   img {
     max-width: 100% !important; }
+
   p,
   h2,
   h3 {
     orphans: 3;
     widows: 3; }
+
   h2,
   h3 {
     page-break-after: avoid; } }
+
 /*# sourceMappingURL=main.css.map */
