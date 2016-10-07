@@ -3072,13 +3072,17 @@ aside {
       -webkit-transform: unset;
               transform: unset; }
       .banner--wrapper img.iams {
-        top: 14.65vw; }
+        -webkit-transform: translate(0, -40%);
+                transform: translate(0, -40%);
+        top: 40%; }
       .banner--wrapper img.superama {
+        -ms-flex-item-align: end;
+            align-self: flex-end;
         float: right;
-        -webkit-transform: translate(0, 0);
-                transform: translate(0, 0);
         position: relative;
-        top: 52%; }
+        -webkit-transform: translate(-13%, -5%);
+                transform: translate(-13%, -5%);
+        top: 53%; }
 
   .announce--wrapper {
     position: relative; }
