@@ -212,28 +212,32 @@ nav
     flex-flow: row nowrap
     margin: 4.6875vw auto
     padding: 0
-    width: 90.625vw
+    width: 84.375vw
     li
+      box-sizing: border-box
       list-style: none inside
       padding: 0 1.5625vw
       position: relative
+      width: 50%
       &:after
         content: "|"
         color: $white
-        font: normal 3.44vw/2em "GothamLight"
-        right: -1px
+        font: normal 2.9375vw/2em "GothamLight"
+        right: 1.25vw
         position: absolute
         transform: translate(0, -50%)
         top: 50%
       &:first-child
         padding-left: 0
       &:last-child
-        padding-right: 0
+        padding: 0
         &:after
           content: ""
       a
         color: $white
-        font: normal 900 3.4375vw/2em 'GothamLight'
+        display: block
+        font: normal 900 2.9375vw/2em 'GothamLight'
+        text-align: center
         text-decoration: none
   p
     color: #fff
