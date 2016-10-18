@@ -86,7 +86,7 @@ nav
     h1
       color: $green-header
       display: block
-      font: bold 20px/1.2em 'GothamBlack'
+      font: bold 20px/1.2em 'GothamBook'
       letter-spacing: 0.3px
       margin: 0 auto
       text-align: center
@@ -116,9 +116,9 @@ nav
       &:after
         right: 0
 
-    div
+    div.container
       box-sizing: border-box
-      padding: 0 0 31.25vw
+      padding: 0
     article
       box-sizing: border-box
       display: block
@@ -131,23 +131,35 @@ nav
         p
           color: $green-header
           display: block
-          margin: 5vw auto 0
-          width: 29.6875vw
+          margin: 0.9765625vw auto 0
+          width: 100%
         figcaption
           color: $grey
           display: block
-          font: normal 8.75vw/1.2em 'LibelSuitRg'
+          font: normal 1em/1.2em 'LibelSuitRg'
           text-align: center
           text-transform: uppercase
           span
             color: $grey
             display: block
-            font: normal 17.1875vw/1.2em 'LibelSuitRg'
+            font: normal 1em/1.2em 'LibelSuitRg'
+          &.skin
+            font-size: em( 38, 16 )
+            span
+              font-size: em( 68, 38 )
+          &.digestion
+            font-size: em( 53, 16 )
+            span
+              font-size: em( 48, 53 )
+          &.energy
+            font-size: em( 60, 16 )
+            span
+              font-size: em( 46, 60 )
       p
         color: $grey
         font: normal 6.25vw/1.4em 'GothamBook'
         letter-spacing: 0.2px
-        margin: 5vw 2.8125vw 0
+        margin: 3.125vw 2.8125vw 0
         text-align: center
 
 .brands--wrapper
