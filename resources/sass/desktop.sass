@@ -14,30 +14,33 @@
   nav
 
 .banner--wrapper
-  background: url( "../img/desktop/perro-paseando-por-la-playa.png" ) no-repeat scroll 0 0 transparent
-  background-size: 100%
+  background: url( "../img/desktop/perro-paseando-por-la-playa.png" ) no-repeat scroll left center transparent
+  background-size: cover
   display: flex
   flex-flow: column nowrap
   height: 48.4666666667vw
   overflow: unset
   .banner--wrapper__banner
+    box-sizing: border-box
+    display: flex
+    flex-flow: column nowrap
     height: 100%
+    left: 16.11328125vw
     margin: 0 auto
+    transform: translate( 13%, 0 )
+    width: 428px
   img
-    align-self: flex-start
-    left: unset
-    position: absolute
-    right: 0
-    transform: unset
+    align-self: center
+    left: 0
+    margin: 0 auto
+    position: relative
+    right: unset
+    transform: translate( 0, 0 )
     &.iams
-      transform: translate( 0, -40% )
-      top: 40%
+      top: 16.6015625vw
+      width: 100%
     &.superama
-      align-self: flex-end
-      float: right
-      position: relative
-      transform: translate( -13%, -5% )
-      top: 53%
+      top: 16.6015625vw
 
 .announce--wrapper
   position: relative
