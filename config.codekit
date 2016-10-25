@@ -700,6 +700,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/desktop\/comprar-ahora.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 312,
+		"inputAbbreviatedPath": "\/img\/desktop\/comprar-ahora.png",
+		"outputAbbreviatedPath": "\/img\/desktop\/comprar-ahora.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/desktop\/digestion.png": {
 		"fileType": 32768,
 		"ignore": 0,
