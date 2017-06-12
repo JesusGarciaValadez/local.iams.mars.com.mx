@@ -2525,45 +2525,45 @@ th {
 
 @font-face {
   font-family: "GothamBlack";
-  font-style: normal;
-  font-weight: normal;
-  src: url("../fonts/Gotham-Black.ttf") format("truetype"); }
+  src: url("../fonts/Gotham-Black");
+  font-weight: "normal";
+  font-style: "normal"; }
 
 @font-face {
   font-family: "GothamBold";
-  font-style: normal;
-  font-weight: bold;
-  src: url("../fonts/Gotham-Bold.ttf") format("truetype"); }
+  src: url("../fonts/Gotham-Bold");
+  font-weight: "normal";
+  font-style: "bold"; }
 
 @font-face {
   font-family: "GothamBook";
-  font-style: normal;
-  font-weight: bold;
-  src: url("../fonts/Gotham-Book.ttf") format("truetype"); }
+  src: url("../fonts/Gotham-Book");
+  font-weight: "normal";
+  font-style: "bold"; }
 
 @font-face {
   font-family: "GothamLight";
-  font-style: normal;
-  font-weight: normal;
-  src: url("../fonts/Gotham-Light.ttf") format("truetype"); }
+  src: url("../fonts/Gotham-Light");
+  font-weight: "normal";
+  font-style: "normal"; }
 
 @font-face {
   font-family: "GothamRoundedBook";
-  font-style: normal;
-  font-weight: normal;
-  src: url("../fonts/GothamRounded-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamRounded-Book.woff2") format("woff2"), url("../fonts/GothamRounded-Book.woff") format("woff"), url("../fonts/GothamRounded-Book.ttf") format("truetype"), url("../fonts/GothamRounded-Book.svg#GothamRoundedBook") format("svg"); }
+  src: url("../fonts/GothamRounded-Book");
+  font-weight: "normal";
+  font-style: "normal"; }
 
 @font-face {
   font-family: "GothamRoundedMedium";
-  font-style: normal;
-  font-weight: normal;
-  src: url("../fonts/GothamRounded-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamRounded-Medium.woff2") format("woff2"), url("../fonts/GothamRounded-Medium.woff") format("woff"), url("../fonts/GothamRounded-Medium.ttf") format("truetype"), url("../fonts/GothamRounded-Medium.svg#GothamRoundedMedium") format("svg"); }
+  src: url("../fonts/GothamRounded-Medium");
+  font-weight: "normal";
+  font-style: "normal"; }
 
 @font-face {
   font-family: "LibelSuitRg";
-  font-style: normal;
-  font-weight: normal;
-  src: url("../fonts/libel-suit-rg.ttf") format("truetype"); }
+  src: url("../fonts/libel-suit-rg");
+  font-weight: "normal";
+  font-style: "normal"; }
 
 /*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
 /*
@@ -2662,12 +2662,15 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-flow: row nowrap;
-      flex-flow: row nowrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
   position: relative;
   width: 100%; }
   header img {
     -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
         align-self: center;
     display: inline-block;
     margin: 15px 0 15px 15px; }
@@ -2682,8 +2685,10 @@ nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-flow: row nowrap;
-      flex-flow: row nowrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
   list-style: none inside;
   margin: 0;
   padding: 0; }
@@ -2778,7 +2783,7 @@ main .results article {
       main .results article figure figcaption span {
         color: #404041;
         display: block;
-        font: normal 17.1875vw/1.2em 'LibelSuitRg'; }
+        font: normal 15.625vw/1.2em 'LibelSuitRg'; }
   main .results article p {
     color: #404041;
     font: normal 6.25vw/1.4em 'GothamBook';
@@ -2790,11 +2795,14 @@ section.wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-flow: column nowrap;
-      flex-flow: column nowrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
   padding: 0 0 40px; }
   section.wrapper article {
     -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
         align-self: center;
     with: 100%; }
   section.wrapper .superama {
@@ -2809,8 +2817,10 @@ section.wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-flow: column nowrap;
-      flex-flow: column nowrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
   height: calc( 156px);
   margin: 0 auto;
   padding: 0;
@@ -2930,9 +2940,11 @@ footer {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-flow: column nowrap;
-        flex-flow: column nowrap;
-    height: 608px; }
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    height: 43.7724982001vw; }
     .banner img {
       -ms-flex-item-align: start;
           align-self: flex-start;
@@ -2954,7 +2966,7 @@ footer {
     left: 0;
     position: relative; }
     .announce h4 {
-      font-size: 4.38em;
+      font-size: 4.375em;
       padding: 15px 0 0 160px; }
   main {
     background: url("../img/desktop/perro-paseando-por-la-playa.png") no-repeat scroll 0 0 transparent;
@@ -2964,39 +2976,46 @@ footer {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      -ms-flex-flow: column nowrap;
-          flex-flow: column nowrap; }
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-flow: column nowrap;
+              flex-flow: column nowrap;
+      padding: 50px 0 0; }
     main .announce {
       top: -7.095709571vw;
       width: 760px; }
     main .results h1 {
       font-size: 2.5em; }
       main .results h1 strong {
-        font-size: 1.5em; }
+        font-size: 3.75em; }
     main .results h2 {
-      font-size: 1.56em; }
+      font-size: 1.5625em; }
       main .results h2:before, main .results h2:after {
         content: "-";
         font-size: 30px;
         font-weight: normal; }
     main .results div {
       box-sizing: border-box;
-      -ms-flex-flow: column nowrap;
-          flex-flow: column nowrap;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-flow: column nowrap;
+              flex-flow: column nowrap;
       padding: 0 0 150px; }
     main .results article {
       display: -webkit-inline-box;
       display: -ms-inline-flexbox;
       display: inline-flex;
-      -ms-flex-flow: column nowrap;
-          flex-flow: column nowrap;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-flow: column nowrap;
+              flex-flow: column nowrap;
       margin: 0;
       padding: 0;
       width: 33%; }
       main .results article figure p {
-        font-size: 1.56em; }
+        font-size: 1.5625em; }
       main .results article figure figcaption {
-        font-size: 1.56em; }
+        font-size: 1.5625em; }
         main .results article figure figcaption span {
           font-size: 2em; }
       main .results article p {
@@ -3008,10 +3027,13 @@ footer {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-flow: row nowrap;
-        flex-flow: row nowrap; }
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap; }
     section.wrapper article {
       -ms-flex-item-align: center;
+          -ms-grid-row-align: center;
           align-self: center;
       with: 50%; }
     section.wrapper .superama img {
@@ -3022,7 +3044,7 @@ footer {
   footer {
     padding: 50px 0; }
     footer h4 {
-      font-size: 1.56em; }
+      font-size: 1.5625em; }
     footer nav {
       box-sizing: border-box;
       margin-bottom: 50px;
@@ -3034,7 +3056,7 @@ footer {
         footer nav ul li:last-child {
           margin-right: 0; }
     footer p {
-      font-size: 0.81em; } }
+      font-size: 0.8125em; } }
 
 @media print, (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 1.25dppx), (min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */ }
