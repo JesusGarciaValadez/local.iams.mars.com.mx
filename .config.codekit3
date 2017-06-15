@@ -128,17 +128,12 @@
 	"\/bower_components\/html5-boilerplate\/dist\/apple-touch-icon.png": {
 		"ft": 32768,
 		"iS": 3959,
-		"l": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/html5-boilerplate\/dist\/apple-touch-icon.png",
 		"oF": 0,
-<<<<<<< HEAD
-		"opt": 0,
-=======
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
->>>>>>> master
 		"q": 100
 		},
 	"\/bower_components\/html5-boilerplate\/dist\/browserconfig.xml": {
@@ -392,33 +387,23 @@
 	"\/bower_components\/html5-boilerplate\/dist\/tile-wide.png": {
 		"ft": 32768,
 		"iS": 1854,
-		"l": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/html5-boilerplate\/dist\/tile-wide.png",
 		"oF": 0,
-<<<<<<< HEAD
-		"opt": 0,
-=======
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
->>>>>>> master
 		"q": 100
 		},
 	"\/bower_components\/html5-boilerplate\/dist\/tile.png": {
 		"ft": 32768,
 		"iS": 3482,
-		"l": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/html5-boilerplate\/dist\/tile.png",
 		"oF": 0,
-<<<<<<< HEAD
-		"opt": 0,
-=======
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
->>>>>>> master
 		"q": 100
 		},
 	"\/bower_components\/html5-boilerplate\/gulpfile.js": {
@@ -489,17 +474,12 @@
 	"\/bower_components\/html5-boilerplate\/src\/apple-touch-icon.png": {
 		"ft": 32768,
 		"iS": 3959,
-		"l": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/html5-boilerplate\/src\/apple-touch-icon.png",
 		"oF": 0,
-<<<<<<< HEAD
-		"opt": 0,
-=======
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
->>>>>>> master
 		"q": 100
 		},
 	"\/bower_components\/html5-boilerplate\/src\/browserconfig.xml": {
@@ -728,33 +708,23 @@
 	"\/bower_components\/html5-boilerplate\/src\/tile-wide.png": {
 		"ft": 32768,
 		"iS": 1854,
-		"l": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/html5-boilerplate\/src\/tile-wide.png",
 		"oF": 0,
-<<<<<<< HEAD
-		"opt": 0,
-=======
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
->>>>>>> master
 		"q": 100
 		},
 	"\/bower_components\/html5-boilerplate\/src\/tile.png": {
 		"ft": 32768,
 		"iS": 3482,
-		"l": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/html5-boilerplate\/src\/tile.png",
 		"oF": 0,
-<<<<<<< HEAD
-		"opt": 0,
-=======
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
->>>>>>> master
 		"q": 100
 		},
 	"\/bower_components\/html5-boilerplate\/test\/file_content.js": {
@@ -838,17 +808,12 @@
 	"\/favicon.png": {
 		"ft": 32768,
 		"iS": 996,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/favicon.png",
 		"oF": 0,
-<<<<<<< HEAD
-		"opt": 0,
-=======
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
->>>>>>> master
 		"q": 100
 		},
 	"\/fonts\/fontawesome-webfont.eot": {
@@ -1108,305 +1073,210 @@
 	"\/img\/desktop\/ahora-disponible-en-superama.png": {
 		"ft": 32768,
 		"iS": 20275,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/img\/desktop\/ahora-disponible-en-superama.png",
 		"oF": 0,
-<<<<<<< HEAD
-		"opt": 0,
-=======
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
->>>>>>> master
 		"q": 100
 		},
 	"\/img\/desktop\/comprar-ahora.png": {
 		"ft": 32768,
 		"iS": 312,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/img\/desktop\/comprar-ahora.png",
 		"oF": 0,
-<<<<<<< HEAD
-		"opt": 0,
-=======
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
->>>>>>> master
 		"q": 100
 		},
 	"\/img\/desktop\/digestion.png": {
 		"ft": 32768,
 		"iS": 14136,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/img\/desktop\/digestion.png",
 		"oF": 0,
-<<<<<<< HEAD
-		"opt": 0,
-=======
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
->>>>>>> master
 		"q": 100
 		},
 	"\/img\/desktop\/energia.png": {
 		"ft": 32768,
 		"iS": 23055,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/img\/desktop\/energia.png",
 		"oF": 0,
-<<<<<<< HEAD
-		"opt": 0,
-=======
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
->>>>>>> master
 		"q": 100
 		},
 	"\/img\/desktop\/iams-blanco.png": {
 		"ft": 32768,
 		"iS": 2959,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/img\/desktop\/iams-blanco.png",
 		"oF": 0,
-<<<<<<< HEAD
-		"opt": 0,
-=======
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
->>>>>>> master
 		"q": 100
 		},
 	"\/img\/desktop\/iams.png": {
 		"ft": 32768,
 		"iS": 17519,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/img\/desktop\/iams.png",
 		"oF": 0,
-<<<<<<< HEAD
-		"opt": 0,
-=======
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
->>>>>>> master
 		"q": 100
 		},
 	"\/img\/desktop\/llego-a-mexico.png": {
 		"ft": 32768,
 		"iS": 29954,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/img\/desktop\/llego-a-mexico.png",
 		"oF": 0,
-<<<<<<< HEAD
-		"opt": 0,
-=======
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
->>>>>>> master
 		"q": 100
 		},
 	"\/img\/desktop\/perro-paseando-por-la-playa.png": {
 		"ft": 32768,
 		"iS": 1856260,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/img\/desktop\/perro-paseando-por-la-playa.png",
 		"oF": 0,
-<<<<<<< HEAD
-		"opt": 0,
-=======
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
->>>>>>> master
 		"q": 100
 		},
 	"\/img\/desktop\/piel.png": {
 		"ft": 32768,
 		"iS": 15638,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/img\/desktop\/piel.png",
 		"oF": 0,
-<<<<<<< HEAD
-		"opt": 0,
-=======
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
->>>>>>> master
 		"q": 100
 		},
 	"\/img\/desktop\/productos.png": {
 		"ft": 32768,
 		"iS": 664300,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/img\/desktop\/productos.png",
 		"oF": 0,
-<<<<<<< HEAD
-		"opt": 0,
-=======
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
->>>>>>> master
 		"q": 100
 		},
 	"\/img\/mobile\/ahora-disponible-en-superama.png": {
 		"ft": 32768,
 		"iS": 8648,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/img\/mobile\/ahora-disponible-en-superama.png",
 		"oF": 0,
-<<<<<<< HEAD
-		"opt": 0,
-=======
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
->>>>>>> master
 		"q": 100
 		},
 	"\/img\/mobile\/cover.png": {
 		"ft": 32768,
 		"iS": 285591,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/img\/mobile\/cover.png",
 		"oF": 0,
-<<<<<<< HEAD
-		"opt": 0,
-=======
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
->>>>>>> master
 		"q": 100
 		},
 	"\/img\/mobile\/digestion.png": {
 		"ft": 32768,
 		"iS": 14136,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/img\/mobile\/digestion.png",
 		"oF": 0,
-<<<<<<< HEAD
-		"opt": 0,
-=======
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
->>>>>>> master
 		"q": 100
 		},
 	"\/img\/mobile\/energia.png": {
 		"ft": 32768,
 		"iS": 23055,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/img\/mobile\/energia.png",
 		"oF": 0,
-<<<<<<< HEAD
-		"opt": 0,
-=======
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
->>>>>>> master
 		"q": 100
 		},
 	"\/img\/mobile\/iams-blanco.png": {
 		"ft": 32768,
 		"iS": 2353,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/img\/mobile\/iams-blanco.png",
 		"oF": 0,
-<<<<<<< HEAD
-		"opt": 0,
-=======
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
->>>>>>> master
 		"q": 100
 		},
 	"\/img\/mobile\/iams.png": {
 		"ft": 32768,
 		"iS": 5733,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/img\/mobile\/iams.png",
 		"oF": 0,
-<<<<<<< HEAD
-		"opt": 0,
-=======
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
->>>>>>> master
 		"q": 100
 		},
 	"\/img\/mobile\/llego-a-mexico.png": {
 		"ft": 32768,
 		"iS": 18678,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/img\/mobile\/llego-a-mexico.png",
 		"oF": 0,
-<<<<<<< HEAD
-		"opt": 0,
-=======
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
->>>>>>> master
 		"q": 100
 		},
 	"\/img\/mobile\/piel.png": {
 		"ft": 32768,
 		"iS": 15638,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/img\/mobile\/piel.png",
 		"oF": 0,
-<<<<<<< HEAD
-		"opt": 0,
-=======
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
->>>>>>> master
 		"q": 100
 		},
 	"\/img\/mobile\/productos.png": {
 		"ft": 32768,
 		"iS": 156048,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/img\/mobile\/productos.png",
 		"oF": 0,
-<<<<<<< HEAD
-		"opt": 0,
-=======
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
->>>>>>> master
 		"q": 100
 		},
 	"\/index.html": {
@@ -2109,19 +1979,6 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "\/Users\/jesusgarcia\/sites\/css\/desktop.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/resources\/sass\/fonts.sass": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 2,
-		"dS": 0,
-		"ft": 2,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/Users\/jesusgarcia\/sites\/css\/fonts.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -4238,11 +4095,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-<<<<<<< HEAD
-		"enableLossy": 1,
-=======
 		"optimizerType": 1,
->>>>>>> master
 		"quality": 100
 		},
 	"languageDefaultsPUG": {
