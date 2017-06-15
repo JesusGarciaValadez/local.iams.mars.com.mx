@@ -7,7 +7,7 @@
 		"uuidString": "82881FCF-E6EE-4172-9AC3-808DED5479C3"
 		}
 	],
-"creatorBuild": "25444",
+"creatorBuild": "25813",
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
@@ -131,7 +131,10 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/html5-boilerplate\/dist\/apple-touch-icon.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/bower_components\/html5-boilerplate\/dist\/browserconfig.xml": {
 		"ft": 8192,
@@ -387,7 +390,10 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/html5-boilerplate\/dist\/tile-wide.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/bower_components\/html5-boilerplate\/dist\/tile.png": {
 		"ft": 32768,
@@ -395,7 +401,10 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/html5-boilerplate\/dist\/tile.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/bower_components\/html5-boilerplate\/gulpfile.js": {
 		"ft": 64,
@@ -468,7 +477,10 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/html5-boilerplate\/src\/apple-touch-icon.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/bower_components\/html5-boilerplate\/src\/browserconfig.xml": {
 		"ft": 8192,
@@ -699,7 +711,10 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/html5-boilerplate\/src\/tile-wide.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/bower_components\/html5-boilerplate\/src\/tile.png": {
 		"ft": 32768,
@@ -707,7 +722,10 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/html5-boilerplate\/src\/tile.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/bower_components\/html5-boilerplate\/test\/file_content.js": {
 		"ft": 64,
@@ -793,7 +811,10 @@
 		"oA": 0,
 		"oAP": "\/favicon.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/fonts\/fontawesome-webfont.eot": {
 		"ft": 8192,
@@ -1055,7 +1076,10 @@
 		"oA": 0,
 		"oAP": "\/img\/desktop\/ahora-disponible-en-superama.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/desktop\/comprar-ahora.png": {
 		"ft": 32768,
@@ -1063,7 +1087,10 @@
 		"oA": 0,
 		"oAP": "\/img\/desktop\/comprar-ahora.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/desktop\/digestion.png": {
 		"ft": 32768,
@@ -1071,7 +1098,10 @@
 		"oA": 0,
 		"oAP": "\/img\/desktop\/digestion.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/desktop\/energia.png": {
 		"ft": 32768,
@@ -1079,7 +1109,10 @@
 		"oA": 0,
 		"oAP": "\/img\/desktop\/energia.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/desktop\/iams-blanco.png": {
 		"ft": 32768,
@@ -1087,7 +1120,10 @@
 		"oA": 0,
 		"oAP": "\/img\/desktop\/iams-blanco.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/desktop\/iams.png": {
 		"ft": 32768,
@@ -1095,7 +1131,10 @@
 		"oA": 0,
 		"oAP": "\/img\/desktop\/iams.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/desktop\/llego-a-mexico.png": {
 		"ft": 32768,
@@ -1103,7 +1142,10 @@
 		"oA": 0,
 		"oAP": "\/img\/desktop\/llego-a-mexico.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/desktop\/perro-paseando-por-la-playa.png": {
 		"ft": 32768,
@@ -1111,7 +1153,10 @@
 		"oA": 0,
 		"oAP": "\/img\/desktop\/perro-paseando-por-la-playa.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/desktop\/piel.png": {
 		"ft": 32768,
@@ -1119,7 +1164,10 @@
 		"oA": 0,
 		"oAP": "\/img\/desktop\/piel.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/desktop\/productos.png": {
 		"ft": 32768,
@@ -1127,7 +1175,10 @@
 		"oA": 0,
 		"oAP": "\/img\/desktop\/productos.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/mobile\/ahora-disponible-en-superama.png": {
 		"ft": 32768,
@@ -1135,7 +1186,10 @@
 		"oA": 0,
 		"oAP": "\/img\/mobile\/ahora-disponible-en-superama.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/mobile\/cover.png": {
 		"ft": 32768,
@@ -1143,7 +1197,10 @@
 		"oA": 0,
 		"oAP": "\/img\/mobile\/cover.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/mobile\/digestion.png": {
 		"ft": 32768,
@@ -1151,7 +1208,10 @@
 		"oA": 0,
 		"oAP": "\/img\/mobile\/digestion.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/mobile\/energia.png": {
 		"ft": 32768,
@@ -1159,7 +1219,10 @@
 		"oA": 0,
 		"oAP": "\/img\/mobile\/energia.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/mobile\/iams-blanco.png": {
 		"ft": 32768,
@@ -1167,7 +1230,10 @@
 		"oA": 0,
 		"oAP": "\/img\/mobile\/iams-blanco.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/mobile\/iams.png": {
 		"ft": 32768,
@@ -1175,7 +1241,10 @@
 		"oA": 0,
 		"oAP": "\/img\/mobile\/iams.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/mobile\/llego-a-mexico.png": {
 		"ft": 32768,
@@ -1183,7 +1252,10 @@
 		"oA": 0,
 		"oAP": "\/img\/mobile\/llego-a-mexico.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/mobile\/piel.png": {
 		"ft": 32768,
@@ -1191,7 +1263,10 @@
 		"oA": 0,
 		"oAP": "\/img\/mobile\/piel.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/mobile\/productos.png": {
 		"ft": 32768,
@@ -1199,7 +1274,10 @@
 		"oA": 0,
 		"oAP": "\/img\/mobile\/productos.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/index.html": {
 		"ft": 8192,
@@ -2624,6 +2702,10 @@
 			"active": 0,
 			"optionString": "{'properties': 'always'}"
 			},
+		"capitalized-comments": {
+			"active": 0,
+			"optionString": "'always', {'ignoreInlineComments': false, 'ignoreConsecutiveComments': false}"
+			},
 		"class-methods-use-this": {
 			"active": 0,
 			"optionString": "{'exceptMethods': []}"
@@ -2788,6 +2870,10 @@
 			"active": 0,
 			"optionString": "{'max': 10}, {'ignoreTopLevelFunctions': true}"
 			},
+		"max-statements-per-line": {
+			"active": 0,
+			"optionString": "{'max': 1}"
+			},
 		"multiline-ternary": {
 			"active": 0,
 			"optionString": "'always'"
@@ -2820,6 +2906,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-await-in-loop": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
@@ -2838,6 +2928,10 @@
 			},
 		"no-class-assign": {
 			"active": 1,
+			"optionString": ""
+			},
+		"no-compare-neg-zero": {
+			"active": 0,
 			"optionString": ""
 			},
 		"no-cond-assign": {
@@ -3040,6 +3134,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-multi-assign": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-multi-spaces": {
 			"active": 0,
 			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
@@ -3120,6 +3218,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-prototype-builtins": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-redeclare": {
 			"active": 1,
 			"optionString": "{'builtinGlobals': false}"
@@ -3151,6 +3253,10 @@
 		"no-return-assign": {
 			"active": 0,
 			"optionString": "'except-parens'"
+			},
+		"no-return-await": {
+			"active": 0,
+			"optionString": ""
 			},
 		"no-script-url": {
 			"active": 0,
@@ -3312,6 +3418,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
+			},
 		"object-curly-newline": {
 			"active": 0,
 			"optionString": "{'ObjectExpression': {'multiline': true}, 'ObjectPattern': {'multiline': true}}"
@@ -3356,9 +3466,17 @@
 			"active": 0,
 			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
 			},
+		"prefer-destructuring": {
+			"active": 0,
+			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
+			},
 		"prefer-numeric-literals": {
 			"active": 0,
 			"optionString": ""
+			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
 			},
 		"prefer-rest-params": {
 			"active": 0,
@@ -3383,6 +3501,10 @@
 		"radix": {
 			"active": 0,
 			"optionString": "'always'"
+			},
+		"require-await": {
+			"active": 0,
+			"optionString": ""
 			},
 		"require-jsdoc": {
 			"active": 0,
@@ -3449,6 +3571,10 @@
 			"optionString": ""
 			},
 		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
 			"active": 0,
 			"optionString": "'never'"
 			},
@@ -3895,7 +4021,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"quality": 100
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -3918,14 +4045,6 @@
 		"autoOutputPathStyle": 0,
 		"orderOutput": 0,
 		"outputStyle": 1
-		},
-	"languageDefaultsJSX": {
-		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "jsx",
-		"autoOutputPathReplace2": "js",
-		"autoOutputPathStyle": 0
 		},
 	"languageDefaultsKIT": {
 		"autoOutputAction": 0,
@@ -3988,7 +4107,9 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"optimizerType": 1,
+		"quality": 100
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,
@@ -4216,6 +4337,10 @@
 			},
 		"space-colon": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"support-ie8": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"toplevel": {
