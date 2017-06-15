@@ -7,7 +7,7 @@
 		"uuidString": "82881FCF-E6EE-4172-9AC3-808DED5479C3"
 		}
 	],
-"creatorBuild": "25704",
+"creatorBuild": "25813",
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
@@ -132,7 +132,13 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/html5-boilerplate\/dist\/apple-touch-icon.png",
 		"oF": 0,
+<<<<<<< HEAD
 		"opt": 0,
+=======
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+>>>>>>> master
 		"q": 100
 		},
 	"\/bower_components\/html5-boilerplate\/dist\/browserconfig.xml": {
@@ -390,7 +396,13 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/html5-boilerplate\/dist\/tile-wide.png",
 		"oF": 0,
+<<<<<<< HEAD
 		"opt": 0,
+=======
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+>>>>>>> master
 		"q": 100
 		},
 	"\/bower_components\/html5-boilerplate\/dist\/tile.png": {
@@ -400,7 +412,13 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/html5-boilerplate\/dist\/tile.png",
 		"oF": 0,
+<<<<<<< HEAD
 		"opt": 0,
+=======
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+>>>>>>> master
 		"q": 100
 		},
 	"\/bower_components\/html5-boilerplate\/gulpfile.js": {
@@ -475,7 +493,13 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/html5-boilerplate\/src\/apple-touch-icon.png",
 		"oF": 0,
+<<<<<<< HEAD
 		"opt": 0,
+=======
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+>>>>>>> master
 		"q": 100
 		},
 	"\/bower_components\/html5-boilerplate\/src\/browserconfig.xml": {
@@ -708,7 +732,13 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/html5-boilerplate\/src\/tile-wide.png",
 		"oF": 0,
+<<<<<<< HEAD
 		"opt": 0,
+=======
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+>>>>>>> master
 		"q": 100
 		},
 	"\/bower_components\/html5-boilerplate\/src\/tile.png": {
@@ -718,7 +748,13 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/html5-boilerplate\/src\/tile.png",
 		"oF": 0,
+<<<<<<< HEAD
 		"opt": 0,
+=======
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+>>>>>>> master
 		"q": 100
 		},
 	"\/bower_components\/html5-boilerplate\/test\/file_content.js": {
@@ -806,7 +842,13 @@
 		"oA": 0,
 		"oAP": "\/favicon.png",
 		"oF": 0,
+<<<<<<< HEAD
 		"opt": 0,
+=======
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+>>>>>>> master
 		"q": 100
 		},
 	"\/fonts\/fontawesome-webfont.eot": {
@@ -1070,7 +1112,13 @@
 		"oA": 0,
 		"oAP": "\/img\/desktop\/ahora-disponible-en-superama.png",
 		"oF": 0,
+<<<<<<< HEAD
 		"opt": 0,
+=======
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+>>>>>>> master
 		"q": 100
 		},
 	"\/img\/desktop\/comprar-ahora.png": {
@@ -1080,7 +1128,13 @@
 		"oA": 0,
 		"oAP": "\/img\/desktop\/comprar-ahora.png",
 		"oF": 0,
+<<<<<<< HEAD
 		"opt": 0,
+=======
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+>>>>>>> master
 		"q": 100
 		},
 	"\/img\/desktop\/digestion.png": {
@@ -1090,7 +1144,13 @@
 		"oA": 0,
 		"oAP": "\/img\/desktop\/digestion.png",
 		"oF": 0,
+<<<<<<< HEAD
 		"opt": 0,
+=======
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+>>>>>>> master
 		"q": 100
 		},
 	"\/img\/desktop\/energia.png": {
@@ -1100,7 +1160,13 @@
 		"oA": 0,
 		"oAP": "\/img\/desktop\/energia.png",
 		"oF": 0,
+<<<<<<< HEAD
 		"opt": 0,
+=======
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+>>>>>>> master
 		"q": 100
 		},
 	"\/img\/desktop\/iams-blanco.png": {
@@ -1110,7 +1176,13 @@
 		"oA": 0,
 		"oAP": "\/img\/desktop\/iams-blanco.png",
 		"oF": 0,
+<<<<<<< HEAD
 		"opt": 0,
+=======
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+>>>>>>> master
 		"q": 100
 		},
 	"\/img\/desktop\/iams.png": {
@@ -1120,7 +1192,13 @@
 		"oA": 0,
 		"oAP": "\/img\/desktop\/iams.png",
 		"oF": 0,
+<<<<<<< HEAD
 		"opt": 0,
+=======
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+>>>>>>> master
 		"q": 100
 		},
 	"\/img\/desktop\/llego-a-mexico.png": {
@@ -1130,7 +1208,13 @@
 		"oA": 0,
 		"oAP": "\/img\/desktop\/llego-a-mexico.png",
 		"oF": 0,
+<<<<<<< HEAD
 		"opt": 0,
+=======
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+>>>>>>> master
 		"q": 100
 		},
 	"\/img\/desktop\/perro-paseando-por-la-playa.png": {
@@ -1140,7 +1224,13 @@
 		"oA": 0,
 		"oAP": "\/img\/desktop\/perro-paseando-por-la-playa.png",
 		"oF": 0,
+<<<<<<< HEAD
 		"opt": 0,
+=======
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+>>>>>>> master
 		"q": 100
 		},
 	"\/img\/desktop\/piel.png": {
@@ -1150,7 +1240,13 @@
 		"oA": 0,
 		"oAP": "\/img\/desktop\/piel.png",
 		"oF": 0,
+<<<<<<< HEAD
 		"opt": 0,
+=======
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+>>>>>>> master
 		"q": 100
 		},
 	"\/img\/desktop\/productos.png": {
@@ -1160,7 +1256,13 @@
 		"oA": 0,
 		"oAP": "\/img\/desktop\/productos.png",
 		"oF": 0,
+<<<<<<< HEAD
 		"opt": 0,
+=======
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+>>>>>>> master
 		"q": 100
 		},
 	"\/img\/mobile\/ahora-disponible-en-superama.png": {
@@ -1170,7 +1272,13 @@
 		"oA": 0,
 		"oAP": "\/img\/mobile\/ahora-disponible-en-superama.png",
 		"oF": 0,
+<<<<<<< HEAD
 		"opt": 0,
+=======
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+>>>>>>> master
 		"q": 100
 		},
 	"\/img\/mobile\/cover.png": {
@@ -1180,7 +1288,13 @@
 		"oA": 0,
 		"oAP": "\/img\/mobile\/cover.png",
 		"oF": 0,
+<<<<<<< HEAD
 		"opt": 0,
+=======
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+>>>>>>> master
 		"q": 100
 		},
 	"\/img\/mobile\/digestion.png": {
@@ -1190,7 +1304,13 @@
 		"oA": 0,
 		"oAP": "\/img\/mobile\/digestion.png",
 		"oF": 0,
+<<<<<<< HEAD
 		"opt": 0,
+=======
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+>>>>>>> master
 		"q": 100
 		},
 	"\/img\/mobile\/energia.png": {
@@ -1200,7 +1320,13 @@
 		"oA": 0,
 		"oAP": "\/img\/mobile\/energia.png",
 		"oF": 0,
+<<<<<<< HEAD
 		"opt": 0,
+=======
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+>>>>>>> master
 		"q": 100
 		},
 	"\/img\/mobile\/iams-blanco.png": {
@@ -1210,7 +1336,13 @@
 		"oA": 0,
 		"oAP": "\/img\/mobile\/iams-blanco.png",
 		"oF": 0,
+<<<<<<< HEAD
 		"opt": 0,
+=======
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+>>>>>>> master
 		"q": 100
 		},
 	"\/img\/mobile\/iams.png": {
@@ -1220,7 +1352,13 @@
 		"oA": 0,
 		"oAP": "\/img\/mobile\/iams.png",
 		"oF": 0,
+<<<<<<< HEAD
 		"opt": 0,
+=======
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+>>>>>>> master
 		"q": 100
 		},
 	"\/img\/mobile\/llego-a-mexico.png": {
@@ -1230,7 +1368,13 @@
 		"oA": 0,
 		"oAP": "\/img\/mobile\/llego-a-mexico.png",
 		"oF": 0,
+<<<<<<< HEAD
 		"opt": 0,
+=======
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+>>>>>>> master
 		"q": 100
 		},
 	"\/img\/mobile\/piel.png": {
@@ -1240,7 +1384,13 @@
 		"oA": 0,
 		"oAP": "\/img\/mobile\/piel.png",
 		"oF": 0,
+<<<<<<< HEAD
 		"opt": 0,
+=======
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+>>>>>>> master
 		"q": 100
 		},
 	"\/img\/mobile\/productos.png": {
@@ -1250,7 +1400,13 @@
 		"oA": 0,
 		"oAP": "\/img\/mobile\/productos.png",
 		"oF": 0,
+<<<<<<< HEAD
 		"opt": 0,
+=======
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+>>>>>>> master
 		"q": 100
 		},
 	"\/index.html": {
@@ -3192,6 +3348,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-prototype-builtins": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-redeclare": {
 			"active": 1,
 			"optionString": "{'builtinGlobals': false}"
@@ -4016,14 +4176,6 @@
 		"orderOutput": 0,
 		"outputStyle": 1
 		},
-	"languageDefaultsJSX": {
-		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "jsx",
-		"autoOutputPathReplace2": "js",
-		"autoOutputPathStyle": 0
-		},
 	"languageDefaultsKIT": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.html",
@@ -4086,7 +4238,11 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+<<<<<<< HEAD
 		"enableLossy": 1,
+=======
+		"optimizerType": 1,
+>>>>>>> master
 		"quality": 100
 		},
 	"languageDefaultsPUG": {
